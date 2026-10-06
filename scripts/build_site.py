@@ -1,0 +1,242 @@
+#!/usr/bin/env python3
+"""Build the one-page challenge site (site/index.html) from the repo's data. No dependencies.
+Run after scripts/scoreboard.py and scripts/stranded.py. Deploy the site/ directory anywhere static
+(Cloudflare Pages, GitHub Pages)."""
+import csv, json, pathlib, html, glob, re
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+REPO = "https://github.com/dwhly/whereisfortmason"
+e = html.escape
+
+sb_file = sorted(glob.glob(str(ROOT / "data" / "scoreboard" / "*.json")))[-1]
+sb = json.load(open(sb_file))
+truth = {r["address"]: r for r in csv.DictReader(open(ROOT / "data" / "truth" / "fort-mason.csv"))}
+summary = (ROOT / "data" / "stranded" / "summary.md").read_text()
+area_rows = [l for l in summary.splitlines() if l.startswith("| ") and not l.startswith("| Area") and "---" not in l]
+systems = list(sb["score"].keys())
+lk_file = ROOT / "data" / "lookup" / "fort-mason.json"
+lookup = json.load(open(lk_file))["addresses"] if lk_file.exists() else []
+
+score_cards = []
+for s in systems:
+    ok, n = sb["score"][s]
+    if n == 0:
+        score_cards.append(f'<div class="card pending"><div class="sys">{e(s)}</div><div class="num">?</div><div class="sub">test coming</div></div>')
+    else:
+        cls = "good" if ok == n else ("near" if ok / n >= 0.9 else ("mid" if ok else "bad"))
+        score_cards.append(f'<div class="card {cls}"><div class="sys">{e(s)}</div><div class="num">{ok}<span>/{n}</span></div><div class="sub">addresses land on the right building</div></div>')
+
+def cell(v):
+    if not v or v == "NO_KEY":
+        return '<td class="na">-</td>'
+    c = "pass" if v.startswith("PASS") else "fail"
+    return f'<td class="{c}">{e(v.replace("PASS", "✓").replace("FAIL", "✗"))}</td>'
+
+tested = [s for s in systems if sb["score"][s][1]]
+table_rows = "\n".join(
+    f'<tr><td><b>{e(r["address"])}</b><br><small>{e(r["building"] or "")}</small></td>' + "".join(cell(r.get(s, "")) for s in tested) + "</tr>"
+    for r in sb["rows"])
+points = [{"a": r["address"], "b": r["building"], "lat": float(truth[r["address"]]["lat"]), "lon": float(truth[r["address"]]["lon"]),
+           "ok": sum(1 for s in tested if str(r.get(s, "")).startswith("PASS")), "n": len(tested)} for r in sb["rows"] if r["address"] in truth]
+areas_html = "\n".join(
+    "<tr>" + "".join(f"<td>{e(c.strip())}</td>" for c in l.strip("|").split("|")[:5]) + "</tr>" for l in area_rows)
+
+page = f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Fort Mason Address Challenge</title>
+<meta name="description" content="An open AI gauntlet with a real-world finish line: fix the addresses in major map systems for Fort Mason, San Francisco.">
+<link rel="canonical" href="https://whereisfortmason.com/">
+<meta property="og:url" content="https://whereisfortmason.com/">
+<meta property="og:title" content="Where is Fort Mason? The Fort Mason Address Challenge">
+<meta property="og:description" content="The maps still can't find our front doors. An open AI challenge, scored by a machine.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{{--ink:#14213d;--muted:#5b6475;--bg:#f7f5f0;--card:#fff;--accent:#e4572e;--good:#2a9d8f;--mid:#e9c46a;--bad:#d62828;--line:#e3e0d8}}
+*{{box-sizing:border-box}} body{{margin:0;font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}}
+a{{color:var(--accent)}} .wrap{{max-width:1040px;margin:0 auto;padding:0 22px}}
+header{{background:var(--ink);color:#fff;padding:64px 0 56px}} header .kicker{{letter-spacing:.14em;text-transform:uppercase;font-size:13px;color:#f4a261;font-weight:700}}
+h1{{font-size:clamp(34px,6vw,58px);line-height:1.05;margin:.25em 0 .3em}} header p.lede{{font-size:clamp(18px,2.4vw,22px);max-width:760px;color:#dfe3ec}}
+.cta{{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}} .btn{{display:inline-block;padding:12px 20px;border-radius:10px;font-weight:700;text-decoration:none}}
+.btn.primary{{background:var(--accent);color:#fff}} .btn.ghost{{border:2px solid #ffffff55;color:#fff}}
+section{{padding:54px 0;border-bottom:1px solid var(--line)}} h2{{font-size:30px;margin:0 0 .5em}} .muted{{color:var(--muted)}}
+.cards{{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:22px 0}}
+.card{{background:var(--card);border-radius:14px;padding:18px;border-top:6px solid var(--line);box-shadow:0 1px 3px #0001}}
+.card.good{{border-color:var(--good)}} .card.near{{border-color:#8ab17d}} .card.mid{{border-color:var(--mid)}} .card.bad{{border-color:var(--bad)}} .card.pending{{border-color:#aab}}
+.card .sys{{font-weight:700}} .card .num{{font-size:44px;font-weight:800;line-height:1.1}} .card .num span{{font-size:22px;color:var(--muted)}} .card .sub{{font-size:13px;color:var(--muted)}}
+.two{{display:grid;grid-template-columns:1fr 1fr;gap:26px}} @media(max-width:800px){{.two{{grid-template-columns:1fr}}}}
+table{{width:100%;border-collapse:collapse;background:var(--card);border-radius:12px;overflow:hidden;font-size:15px}}
+th,td{{padding:9px 11px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}} th{{background:#efece4;font-size:13px;text-transform:uppercase;letter-spacing:.05em}}
+td.pass{{color:var(--good);font-weight:700;white-space:nowrap}} td.fail{{white-space:nowrap}} td.fail{{color:var(--bad);font-weight:700}} td.na{{color:#aab}}
+.scroll{{overflow-x:auto;border-radius:12px;box-shadow:0 1px 3px #0001}}
+#map{{height:400px;margin-top:8px;border-radius:14px;box-shadow:0 1px 3px #0001}}
+.callout{{background:#fff3ea;border-left:5px solid var(--accent);padding:16px 18px;border-radius:8px}}
+ol.moves li,ul.rules li{{margin:.35em 0}} .pill{{display:inline-block;background:#efece4;border-radius:99px;padding:2px 10px;font-size:13px;margin-right:6px}}
+.try{{background:#fff;}} .tryform{{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 18px}}
+.tryform input{{flex:1;min-width:220px;font-size:20px;padding:12px 14px;border:2px solid var(--ink);border-radius:10px}}
+.tryform button{{font-size:18px;padding:12px 20px;border:0;border-radius:10px;background:var(--accent);color:#fff;font-weight:800;cursor:pointer}}
+.trygrid{{display:grid;grid-template-columns:3fr 2fr;gap:20px}} @media(max-width:800px){{.trygrid{{grid-template-columns:1fr}}}}
+#trymap .leaflet-tile-pane{{filter:grayscale(1) brightness(1.06) contrast(.85)}}
+#trymap{{height:540px;border-radius:14px;box-shadow:0 1px 3px #0003}}
+.verdict{{background:var(--bg);border-radius:12px;padding:12px 14px;margin:0 0 10px;border-left:6px solid #aab}}
+.verdict.pass{{border-color:var(--good)}} .verdict.wrong,.verdict.not_found{{border-color:var(--bad)}} .verdict.city{{border-color:#7b2cbf}}
+.verdict b{{display:block}} .verdict small{{color:var(--muted)}} .chips a{{display:inline-block;margin:4px 6px 0 0;padding:8px 12px;border-radius:99px;background:var(--ink);color:#fff;text-decoration:none;font-weight:700;font-size:14px}}
+.bigline{{font-size:22px;font-weight:800;margin:4px 0 12px}}
+footer{{padding:34px 0 60px;font-size:14px;color:var(--muted)}}
+</style></head><body>
+<header><div class="wrap">
+<div class="kicker">WhereIsFortMason.com · An open AI gauntlet · San Francisco</div>
+<h1>The Fort Mason<br>Address Challenge</h1>
+<p class="lede">Fort Mason is one of the most photographed neighbourhoods in America, and the maps still can't find our front
+doors. For almost a decade, packages here have gone to the wrong house. <b>The challenge: fix the addresses in the major
+map systems, for real, scored by a machine.</b></p>
+<div class="cta"><a class="btn primary" href="#scoreboard">See the scoreboard</a><a class="btn ghost" href="{REPO}/blob/main/CHALLENGE.md">Take the challenge</a><a class="btn ghost" href="#residents">Live here?</a></div>
+</div></header>
+
+<section id="try" class="try"><div class="wrap">
+<h2>Where does your address send you?</h2>
+<p class="muted">Type a Fort Mason address the way it's written on your mail. We'll show your real front door, and where
+the maps send the delivery driver instead.</p>
+<form class="tryform" id="tryform" autocomplete="off"><input id="q" list="fmaddrs" placeholder="e.g. 3 Fort Mason" aria-label="Fort Mason address">
+<button type="submit">Show me</button></form>
+<datalist id="fmaddrs">{''.join(f'<option value="{e(r["address"])}">' for r in lookup)}</datalist>
+<div class="trygrid"><div><div id="trymap"></div>
+<p class="muted" style="font-size:14px;margin:8px 0 0">🟢 the real front door · 🔴 where a map sends the driver · 🟣 the City's other address with the same name
+<button id="replay" style="margin-left:8px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:3px 10px;cursor:pointer">▶ Replay</button></p></div><div><div class="bigline" id="bigline"></div><div id="verdicts"></div>
+<div class="chips" id="chips"></div></div></div>
+</div></section>
+
+<section><div class="wrap two">
+<div><h2>The problem</h2>
+<p>Order something to a home inside Fort Mason and there's a good chance it lands at the wrong door. Packages for one house
+are routinely left at another house 250 m away. Drivers give up, leave the box on a stranger's porch and photograph it.
+Google mostly copes; Apple Maps, many delivery apps and the US government's own geocoder don't.</p>
+<p><b>Why:</b> Fort Mason has <b>two address systems for the same buildings</b>.</p>
+<ul>
+<li>Residents and the post office use "3 Fort Mason".</li>
+<li>The City's official address database calls the same spot "3 Franklin St, 94123".</li>
+<li>"3 Franklin St" <i>also</i> exists 3.7 km away at Market Street.</li>
+</ul>
+<p>Lose the ZIP code and you're downtown. Search for "3 Fort Mason" and the government geocoder finds nothing at all.</p></div>
+<div><table><tr><th>Building</th><th>What we use</th><th>What the City uses</th></tr>
+<tr><td>Haskell House</td><td>3 Fort Mason</td><td>3 Franklin St <small class="muted">(twin at Market St)</small></td></tr>
+<tr><td>Quarters 2</td><td>2 Fort Mason</td><td>2 Franklin St <small class="muted">(twin at Market St)</small></td></tr>
+<tr><td>Quarters 4</td><td>4 Fort Mason</td><td>4 Franklin St <small class="muted">(twin at Market St)</small></td></tr>
+<tr><td>Building 9</td><td>9 Fort Mason</td><td>9 MacArthur Ave</td></tr>
+<tr><td>Residences 36–39</td><td>36–39 Fort Mason</td><td>36–39 MacArthur Ave</td></tr>
+<tr><td>41–49</td><td>41–49 Fort Mason</td><td><b>no official address point</b></td></tr></table>
+<p class="muted" style="font-size:14px">Sources: City and County of SF Enterprise Addressing System; OpenStreetMap; US Census geocoder. Re-run it yourself: <code>scripts/crosscheck.py</code>.</p></div>
+</div></section>
+
+<section id="scoreboard"><div class="wrap">
+<h2>The scoreboard</h2>
+<p class="muted">For each Fort Mason address, we ask each map system "where is this?". The answer passes if it lands within {sb["pass_m"]} m of the right building.
+A system is <b>fixed</b> when its card is fully green and stays green for 30 days. Last run: {e(sb["date"])}.</p>
+<div class="cards">{''.join(score_cards)}</div>
+<div id="map"></div>
+<p class="muted" style="font-size:14px;margin:18px 0 8px">Every address, every system ({len(sb["rows"])} addresses).</p>
+<div class="scroll"><table><tr><th>Address</th>{''.join(f"<th>{e(s)}</th>" for s in tested)}</tr>{table_rows}</table></div>
+</div></section>
+
+<section><div class="wrap two">
+<div><h2>How to play</h2>
+<p>People, AI agents, or people with agents. Every claim needs evidence someone else can re-run.</p>
+<ol class="moves">
+<li><b>Diagnose:</b> prove which upstream data source feeds each wrong answer.</li>
+<li><b>Fix at the source,</b> through the legitimate channel: an OpenStreetMap tagging fix, a well-documented request to
+the City's addressing team, or Apple's, HERE's or TomTom's own correction processes.</li>
+<li><b>Extend the scoreboard:</b> add Apple Maps search and "My Location", Google, HERE, TomTom, Esri and Mapbox, and
+delivery-app field tests.</li>
+<li><b>Widen the map:</b> find the next stranded neighbourhood.</li></ol>
+<p><a class="btn primary" href="{REPO}/blob/main/CHALLENGE.md">Read the full challenge</a></p></div>
+<div><h2>Rules</h2><ul class="rules">
+<li>Legitimate channels only: no spam, no fake accounts, no mass automated report submissions, no impersonation.</li>
+<li>OpenStreetMap norms apply; discuss bulk edits first, and never import commercial data.</li>
+<li>Respect the services' terms: no bulk scraping or republishing of commercial results.</li>
+<li>Residents' privacy comes first.</li>
+<li>Disclose AI use. A human is accountable for every outside submission.</li>
+<li>Wins count when the scoreboard shows them and the path is documented.</li></ul>
+<div class="callout"><b>Prizes:</b> milestone prizes, announced soon. First system flipped to green · the Apple Maps flip · best root-cause proof · each new neighbourhood fixed.</div></div>
+</div></section>
+
+<section><div class="wrap">
+<h2>It's not just Fort Mason</h2>
+<p class="muted">Former military and federal sites around San Francisco show the same disease. Our detector compares the
+addresses people use (OpenStreetMap) with the City's official points. These are <b>candidates</b>, to be confirmed on the
+ground. In the Presidio, for example, "100 Montgomery St" exists both there and in the Financial District, 5.2 km apart.</p>
+<table><tr><th>Area</th><th>Addresses checked</th><th>Match</th><th>Two systems</th><th>No official point</th></tr>{areas_html}</table>
+<p class="muted" style="font-size:14px">Know another stranded neighbourhood? Add it to <code>data/areas.json</code> and open a pull request.</p>
+</div></section>
+
+<section id="residents"><div class="wrap">
+<h2>Live in Fort Mason?</h2>
+<p>Your stories are the evidence. Send the organiser, on the Fort Mason neighbours chat:</p>
+<ul>
+<li>your address exactly as it appears on your mail;</li>
+<li>what apps or drivers think it is;</li>
+<li>what goes wrong: which company, how often, where packages end up;</li>
+<li>screenshots, if you have them.</li>
+</ul>
+<p>Nothing is published without your OK, and never with your name.</p>
+</div></section>
+
+<footer><div class="wrap">Organised by Fort Mason residents · <a href="{REPO}">Code and data on GitHub</a> · Pull requests welcome.<br>
+Data: © OpenStreetMap contributors (ODbL) · City and County of San Francisco, DataSF · US Census Bureau. Map tiles © OpenStreetMap.</div></footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const P={json.dumps(points)};
+const m=L.map('map',{{scrollWheelZoom:false}}).setView([37.8058,-122.4270],16);
+L.tileLayer('https://tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png',{{maxZoom:19,attribution:'© OpenStreetMap contributors'}}).addTo(m);
+P.forEach(p=>{{const c=p.ok===p.n?'#2a9d8f':(p.ok>0?'#e9c46a':'#d62828');
+L.circleMarker([p.lat,p.lon],{{radius:8,color:'#14213d',weight:1,fillColor:c,fillOpacity:.9}}).addTo(m)
+.bindPopup('<b>'+p.a+'</b><br>'+(p.b||'')+'<br>'+p.ok+' of '+p.n+' map systems find it');}});
+m.fitBounds(P.map(p=>[p.lat,p.lon]),{{padding:[30,30]}});
+
+const LK={json.dumps(lookup)};
+const tm=L.map('trymap',{{scrollWheelZoom:false}}).setView([37.8058,-122.4270],16);
+L.tileLayer('https://tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png',{{maxZoom:19,attribution:'© OpenStreetMap contributors'}}).addTo(tm);
+let timer=null, near=[], far=[];
+let layer=L.layerGroup().addTo(tm);
+const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}}[c]));
+const fmt=m=>m>=1000?(m/1000).toFixed(1)+' km':m+' m';
+function find(q){{const n=(q.match(/\\d+/)||[])[0]; if(!n) return null; return LK.find(r=>r.address.split(' ')[0]===n)||null;}}
+function pin(at,color,label,dir){{const c=L.circleMarker(at,{{radius:11,color:'#fff',weight:3,fillColor:color,fillOpacity:1}}).addTo(layer);
+ c.bindTooltip(label,{{permanent:true,direction:dir||'top',offset:[0,-10]}}); return c;}}
+function animate(){{ if(timer) clearTimeout(timer); tm.fitBounds(near,{{padding:[70,70],maxZoom:17}});
+ if(far.length>near.length) timer=setTimeout(()=>tm.flyToBounds(far,{{padding:[60,60],duration:2.2}}),2600);}}
+document.getElementById('replay').addEventListener('click',animate);
+function show(q){{
+ const r=find(q); layer.clearLayers(); const V=document.getElementById('verdicts'), B=document.getElementById('bigline'), C=document.getElementById('chips');
+ if(!r){{B.textContent="We don't have that one yet."; V.innerHTML='<div class="verdict">Try a number like 2, 4, 9 or 36 Fort Mason, or tell us your address so we can add it.</div>'; C.innerHTML=''; return;}}
+ const pts=[r.door]; pin(r.door,'#2a9d8f','🏠 '+esc(r.address)+' (the real door)','top');
+ let html='', worst=0, wrongs=0;
+ for(const [name,s] of Object.entries(r.systems)){{
+  if(s.status==='pass') html+=`<div class="verdict pass"><b>✅ ${{esc(name)}}</b>finds the right door (${{fmt(s.m)}}).</div>`;
+  else if(s.status==='not_found') {{wrongs++; html+=`<div class="verdict not_found"><b>❌ ${{esc(name)}}</b>can't find this address at all.</div>`;}}
+  else if(s.status==='wrong') {{wrongs++; worst=Math.max(worst,s.m); pts.push(s.at);
+   pin(s.at,'#d62828','📦 '+esc(name.replace(' (OSM)',''))+': '+fmt(s.m)+' off','bottom');
+   L.polyline([r.door,s.at],{{color:'#d62828',dashArray:'8 8',weight:5,opacity:.9}}).addTo(layer);
+   html+=`<div class="verdict wrong"><b>❌ ${{esc(name)}}</b>sends you ${{fmt(s.m)}} away${{s.whats_there?', to <i>'+esc(s.whats_there)+'</i>':''}}.</div>`;}}
+ }}
+ if(r.city_name){{
+  html+=`<div class="verdict city"><b>🏛️ The City's official database</b>calls this house <b style="display:inline">"${{esc(r.city_name)}}"</b>.`+
+   (r.city_twin?` But there's another ${{esc(r.city_name)}} <b style="display:inline">${{r.city_twin.km}} km away</b>${{r.city_twin.whats_there?', at <i>'+esc(r.city_twin.whats_there)+'</i>':''}}. Drop the ZIP code and that's where you go.`:'')+`</div>`;
+  if(r.city_twin){{pin(r.city_twin.at,'#7b2cbf','🏛️ The other "'+esc(r.city_name)+'", '+r.city_twin.km+' km away','right');
+   L.polyline([r.door,r.city_twin.at],{{color:'#7b2cbf',dashArray:'2 10',weight:5,opacity:.9}}).addTo(layer);}}
+ }}
+ html+=`<div class="verdict"><b>🍎 Apple Maps · Google</b>Scoring coming soon. Try them yourself, then send us a screenshot:</div>`;
+ V.innerHTML=html;
+ B.textContent = r.city_twin ? `Your driver could end up ${{r.city_twin.km}} km away.` : (worst? `Off by as much as ${{fmt(worst)}}.` : (wrongs? 'Some maps can\\'t find it at all.' : 'The open maps get this one right.'));
+ const qq=encodeURIComponent(r.address+', San Francisco, CA 94123');
+ C.innerHTML=`<a href="https://maps.apple.com/?q=${{qq}}" target="_blank" rel="noopener">Open in Apple Maps</a><a href="https://www.google.com/maps/search/?api=1&query=${{qq}}" target="_blank" rel="noopener">Open in Google Maps</a>`;
+ near=pts.slice(); far=r.city_twin?pts.concat([r.city_twin.at]):pts.slice(); animate();
+ history.replaceState(null,'','#try='+encodeURIComponent(r.address));
+}}
+document.getElementById('tryform').addEventListener('submit',ev=>{{ev.preventDefault(); show(document.getElementById('q').value);}});
+const h=decodeURIComponent((location.hash.match(/#try=(.+)/)||[])[1]||''); const start=h||'4 Fort Mason';
+document.getElementById('q').value=start; if(LK.length) show(start);
+</script></body></html>
+"""
+out = ROOT / "site"
+out.mkdir(exist_ok=True)
+(out / "index.html").write_text(page)
+print(f"wrote {out/'index.html'} ({len(page)} bytes) from {pathlib.Path(sb_file).name}")

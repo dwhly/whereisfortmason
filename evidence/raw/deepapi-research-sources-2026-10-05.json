@@ -1,0 +1,1657 @@
+{
+ "apple": {
+  "requestId": "7d98b10f-6061-43e1-ba61-4117095328b3",
+  "sources": [
+   {
+    "title": "Where does Apple Maps source it's data!? (the usual ...",
+    "url": "https://www.reddit.com/r/apple/comments/ahx4il/where_does_apple_maps_source_its_data_the_usual/"
+   },
+   {
+    "title": "OpenStreetMap",
+    "url": "https://openstreetmap.org/"
+   },
+   {
+    "title": "Apple initially licensed data primarily from TomTom and ...",
+    "url": "https://news.ycombinator.com/item?id=39055130"
+   },
+   {
+    "title": "Places APIs",
+    "url": "https://www.tomtom.com/products/places-apis/"
+   },
+   {
+    "title": "OpenStreetMap",
+    "url": "https://en.wikipedia.org/wiki/OpenStreetMap"
+   },
+   {
+    "title": "Acknowledgements",
+    "url": "https://gspe21-ssl.ls.apple.com/html/attribution.html"
+   },
+   {
+    "title": "Apple and TomTom Renew Mapping Data Partnership",
+    "url": "https://eshop.macsales.com/blog/30483-apple-and-tomtom-renew-mapping-data-partnership/?srsltid=AU7gw4WsGluEpTjFk6o7ohQtIMCePp9cVHu7-4b3xUVAlxZzWshHw-tP"
+   },
+   {
+    "title": "Apple Maps | OpenStreetMap Blog",
+    "url": "https://blog.openstreetmap.org/2012/10/02/apple-maps/"
+   },
+   {
+    "title": "OpenStreetMap Geocoding: what is & how to use",
+    "url": "https://www.geoapify.com/openstreetmap-geocoding/"
+   },
+   {
+    "title": "Apple Maps - Legal",
+    "url": "https://www.apple.com/legal/internet-services/maps/legal-en.html"
+   },
+   {
+    "title": "15 best reverse geocoding tools on the market today - Radar",
+    "url": "https://radar.com/blog/reverse-geocoding-tools"
+   },
+   {
+    "title": "Apple Maps Server API | Apple Developer Documentation",
+    "url": "https://developer.apple.com/documentation/applemapsserverapi"
+   },
+   {
+    "title": "Reverse Geocoding for iOS Apps: When Apple and Google ...",
+    "url": "https://www.bigdatacloud.com/blog/reverse-geocoding-for-ios-apps-when-apple-google-are-not-best-fit"
+   },
+   {
+    "title": "Forward geocoding from the iPhone - ios",
+    "url": "https://stackoverflow.com/questions/1140404/forward-geocoding-from-the-iphone"
+   },
+   {
+    "title": "Reverse geocoding (address lookup) request and response",
+    "url": "https://developers.google.com/maps/documentation/geocoding/guides-v3/requests-reverse-geocoding"
+   },
+   {
+    "title": "Apple Maps & Open Geocoding: Navigating Alternatives",
+    "url": "https://medium.com/@sarbajit.biswal/apple-maps-open-geocoding-navigating-alternatives-b69f04bb08a4"
+   },
+   {
+    "title": "WWDC22: Meet Apple Maps Server APIs",
+    "url": "https://www.youtube.com/watch?v=xTTaWHASpts"
+   },
+   {
+    "title": "Apple Maps Server API | Apple Developer Forums",
+    "url": "https://developer.apple.com/forums/tags/apple-maps-server-api"
+   },
+   {
+    "title": "Geocoder | Apple Developer Documentation",
+    "url": "https://developer.apple.com/documentation/mapkitjs/geocoder"
+   },
+   {
+    "title": "Geocoding for address and places search",
+    "url": "https://www.mapbox.com/geocoding"
+   },
+   {
+    "title": "Add or update your business information in Maps on Mac",
+    "url": "https://support.apple.com/guide/maps/add-or-update-information-for-your-business-mps0fb242419/mac"
+   },
+   {
+    "title": "Apple Business: Better Business Management Ahead",
+    "url": "https://business.apple.com/en-ww/"
+   },
+   {
+    "title": "My business has wrong location",
+    "url": "https://discussions.apple.com/thread/252980646"
+   },
+   {
+    "title": "Change Your Business Address on Apple Maps: Guide",
+    "url": "https://www.mobal.io/blog-posts/how-to-change-my-business-address-on-apple-maps"
+   },
+   {
+    "title": "Apple Maps is not updating my business's new address.",
+    "url": "https://discussions.apple.com/thread/254739246"
+   },
+   {
+    "title": "How to change business address on apple maps",
+    "url": "https://www.macworld.com/article/234622/how-to-report-wrong-locations-in-apple-maps.html"
+   },
+   {
+    "title": "How do I update my business website on maps for mobile ...",
+    "url": "https://support.google.com/websearch/thread/291220432/how-do-i-update-my-business-website-on-maps-for-mobile-apple-device?hl=en"
+   },
+   {
+    "title": "Report an issue with Maps on iPhone",
+    "url": "https://support.apple.com/guide/iphone/report-an-issue-with-maps-iph2c075a8e8/ios"
+   },
+   {
+    "title": "How do you change the location of your business in apple ...",
+    "url": "https://www.reddit.com/r/restaurantowners/comments/15w86v8/how_do_you_change_the_location_of_your_business/"
+   },
+   {
+    "title": "How to report wrong address as anon apple maps user",
+    "url": "https://www.reddit.com/r/applemaps/comments/1d8vt44/how_to_report_wrong_address_as_anon_apple_maps/"
+   },
+   {
+    "title": "Report an issue with Maps on Mac",
+    "url": "https://support.apple.com/guide/maps/report-an-issue-mps366d4598f/mac"
+   },
+   {
+    "title": "Apple Maps showing wrong location",
+    "url": "https://discussions.apple.com/thread/255820291"
+   },
+   {
+    "title": "How to report a problem with Apple Maps?",
+    "url": "https://discussions.apple.com/thread/254658263"
+   },
+   {
+    "title": "Apple Maps Address is Wrong",
+    "url": "https://localsearchforum.com/threads/apple-maps-address-is-wrong.51065/"
+   },
+   {
+    "title": "Why is Apple Maps giving wrong addresses?",
+    "url": "https://www.facebook.com/groups/1704277016472532/posts/3015190138714540/"
+   },
+   {
+    "title": "Report an Error in Maps missing",
+    "url": "https://discussions.apple.com/thread/254121299"
+   },
+   {
+    "title": "How do municipalities and tourism associations correct ...",
+    "url": "https://discussions.apple.com/thread/256223682"
+   },
+   {
+    "title": "Maintain location information accuracy with Apple Business",
+    "url": "https://support.apple.com/es-us/guide/business/abcb91c1d565/web"
+   },
+   {
+    "title": "Apple Map uses building models from the municipality, and ...",
+    "url": "https://www.reddit.com/r/applemaps/comments/120vxec/apple_map_uses_building_models_from_the/"
+   },
+   {
+    "title": "Google Maps is denying adding a street that appears ...",
+    "url": "https://support.google.com/maps/thread/437487144/google-maps-is-denying-adding-a-street-that-appears-correctly-in-openstreemap-and-apple-maps?hl=en"
+   },
+   {
+    "title": "Why Apple Maps Matters to Businesses",
+    "url": "https://reputation.com/resources/articles/apple-maps-business-matters"
+   },
+   {
+    "title": "Apple Maps & Privacy",
+    "url": "https://www.apple.com/legal/privacy/data/en/apple-maps/"
+   },
+   {
+    "title": "Apple Maps accuracy issues with address numbers",
+    "url": "https://www.facebook.com/groups/1704277016472532/posts/2458623044371255/"
+   },
+   {
+    "title": "Improving Apple Maps in my area",
+    "url": "https://discussions.apple.com/thread/255727032"
+   },
+   {
+    "title": "Apple Maps vs Google Maps: Which Should You Use",
+    "url": "https://getpin.com/seo-en/apple-maps-or-google-maps-which-one-to-use/"
+   },
+   {
+    "title": "Amazon, Meta, Microsoft, and TomTom join forces to take on Google and Apple Maps",
+    "url": "https://mashable.com/article/amazon-microsoft-meta-map-data-open-source"
+   },
+   {
+    "title": "Joint Development Foundation Announces Overture Maps Foundation to Build Interoperable Open Map Data",
+    "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-overture-maps-foundation-to-build-interoperable-open-map-data"
+   },
+   {
+    "title": "Apple Maps versus Google Maps? A free solution from Amazon, Meta, and Microsoft could be the winner",
+    "url": "https://9to5mac.com/2023/07/26/open-source-apple-maps-google-maps-alternative-for-developers/"
+   },
+   {
+    "title": "Meta, Microsoft, and Amazon have launched their open-source mapping project",
+    "url": "https://www.theverge.com/2023/7/26/23808274/meta-microsoft-amazon-overture-open-source-mapping"
+   },
+   {
+    "title": "Meta, Microsoft and Amazon team up on maps project to crack Apple-Google duopoly",
+    "url": "https://www.cnbc.com/2023/07/26/meta-microsoft-amazon-join-overture-maps-to-vie-with-apple-google.html"
+   },
+   {
+    "title": "Meta, Microsoft, AWS and TomTom launch the Overture Maps Foundation to develop interoperable open map data",
+    "url": "https://techcrunch.com/2022/12/15/meta-microsoft-aws-and-tomtom-launch-the-overture-maps-foundation-to-develop-interoperable-open-map-data/"
+   },
+   {
+    "title": "Linux Group Shares Its First Open Dataset for Creating Real Google Maps Alternatives",
+    "url": "https://gizmodo.com/google-maps-alternative-overture-maps-data-linux-1850675768"
+   },
+   {
+    "title": "Tech Giants Unite to Build the Ultimate Google Maps Killer",
+    "url": "https://www.autoevolution.com/news/tech-giants-unite-to-build-the-ultimate-google-maps-killer-218784.html"
+   },
+   {
+    "title": "Navigation Takes Innovative Turn As New Rivals For Google Maps And Apple Maps Arise",
+    "url": "https://www.digitalinformationworld.com/2023/07/navigation-takes-innovative-turn-as-new.html"
+   },
+   {
+    "title": "Big Tech coalition challenges Google and Apple's monopoly on maps",
+    "url": "https://www.techspot.com/news/99567-big-tech-coalition-challenges-google-apple-monopoly-mapping.html"
+   },
+   {
+    "title": "Does New Map Data Fix Address Issues in Maps?",
+    "url": "https://www.reddit.com/r/applemaps/comments/1bqsud8/does_new_map_data_fix_address_issues_in_maps/"
+   },
+   {
+    "title": "If Maps isn't working on your Apple device",
+    "url": "https://support.apple.com/en-us/108924"
+   },
+   {
+    "title": "Apple Maps Wrong Address: Fixes and Alternatives",
+    "url": "https://www.facebook.com/fb-answers/apple-maps-wrong-address/"
+   },
+   {
+    "title": "My address on Google Maps goes to the wrong house (It's ...",
+    "url": "https://support.google.com/maps/thread/393501547/my-address-on-google-maps-goes-to-the-wrong-house-it-s-correct-on-apple-maps?hl=en"
+   },
+   {
+    "title": "How to fix errors on Google Maps and Apple Maps",
+    "url": "https://www.popsci.com/edit-google-apple-maps/"
+   },
+   {
+    "title": "nickjohnston's Diary | Mapping addresses helped find a nine year old mistake in OpenStreetMap (also in Apple Maps, HERE, and TomTom) | OpenStreetMap",
+    "url": "https://www.openstreetmap.org/user/nickjohnston/diary/393326"
+   },
+   {
+    "title": "[Talk-kg] Data corrections in Kyrgyzstan",
+    "url": "https://lists.openstreetmap.org/pipermail/talk-kg/2021-January/000014.html"
+   },
+   {
+    "title": "Data Corrections in the Caribbean \u00b7 Issue #91 \u00b7 osmlab/appledata",
+    "url": "https://github.com/osmlab/appledata/issues/91"
+   },
+   {
+    "title": "Data Corrections in the Atlantic",
+    "url": "https://github.com/osmlab/appledata/issues/93"
+   },
+   {
+    "title": "Atlanta, Georgia - OpenStreetMap Wiki",
+    "url": "https://wiki.openstreetmap.org/wiki/Atlanta,_Georgia"
+   },
+   {
+    "title": "Denmark Data Corrections",
+    "url": "https://github.com/osmlab/appledata/issues/69"
+   },
+   {
+    "title": "Data corrections in Svalbard / Datakorreksjoner p\u00e5 Svalbard - Norge (Norway) - OpenStreetMap Community Forum",
+    "url": "https://community.openstreetmap.org/t/data-corrections-in-svalbard-datakorreksjoner-pa-svalbard/88793"
+   },
+   {
+    "title": "Edit Your Neighborhood in OpenStreetMap \u2013 Unified Pop Theory",
+    "url": "http://unifiedpoptheory.com/edit-your-neighborhood-in-openstreetmap/"
+   },
+   {
+    "title": "omgitsgela's Diary | Massachusetts Addresses, Updates, Detail Mapping | OpenStreetMap",
+    "url": "https://www.openstreetmap.org/user/omgitsgela/diary/44525"
+   },
+   {
+    "title": "Data Improvements in Hong Kong and Macau",
+    "url": "https://github.com/osmlab/appledata/issues/5"
+   },
+   {
+    "title": "Apple",
+    "url": "https://www.apple.com/"
+   },
+   {
+    "title": "Apple Store Online",
+    "url": "https://www.apple.com/store"
+   },
+   {
+    "title": "Manage your Apple Account",
+    "url": "https://account.apple.com/"
+   },
+   {
+    "title": "Sign In - Apple",
+    "url": "https://asw.apple.com/home"
+   },
+   {
+    "title": "Official Apple Support",
+    "url": "https://support.apple.com/"
+   },
+   {
+    "title": "Sign in to your Apple Account on the web or in your device...",
+    "url": "https://support.apple.com/en-us/111001"
+   },
+   {
+    "title": "Apple Inc. - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Apple_Inc."
+   },
+   {
+    "title": "AppleI ID",
+    "url": "https://account.apple.com/account"
+   },
+   {
+    "title": "\u200eApple Music - Web Player",
+    "url": "https://music.apple.com/us/new"
+   },
+   {
+    "title": "Apple TV",
+    "url": "https://tv.apple.com/"
+   },
+   {
+    "title": "Maps",
+    "url": "https://www.apple.com/maps/"
+   },
+   {
+    "title": "Adopting unified Maps URLs",
+    "url": "https://developer.apple.com/documentation/mapkit/unified-map-urls"
+   },
+   {
+    "title": "Apple Maps Image Collection",
+    "url": "https://maps.apple.com/imagecollection"
+   },
+   {
+    "title": "What is the map data source for iOS Maps?",
+    "url": "https://www.quora.com/What-is-the-map-data-source-for-iOS-Maps"
+   },
+   {
+    "title": "National Address Database",
+    "url": "https://www.transportation.gov/gis/national-address-database"
+   },
+   {
+    "title": "Apple Maps",
+    "url": "https://en.wikipedia.org/wiki/Apple_Maps"
+   },
+   {
+    "title": "ArcGIS Hub",
+    "url": "https://hub.arcgis.com/search?tags=usps"
+   },
+   {
+    "title": "Apple's New Map",
+    "url": "https://www.justinobeirne.com/new-apple-maps"
+   },
+   {
+    "title": "Set your home, work, or school address in Maps on iPhone",
+    "url": "https://support.apple.com/guide/iphone/set-your-home-work-or-school-address-iph56959460b/ios"
+   },
+   {
+    "title": "The Biggest Apple Maps Change Is One You Can't See",
+    "url": "https://www.wired.com/story/apple-maps-redesign/"
+   },
+   {
+    "title": "Apple Maps - Bellingcat's Online Investigation Toolkit - GitBook",
+    "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/apple-maps"
+   },
+   {
+    "title": "Apple Maps - What it is, why it is important and how it works.",
+    "url": "https://www.pinmeto.com/blog/apple-maps-how-it-works/"
+   },
+   {
+    "title": "Apple Maps",
+    "url": "https://www.forensafe.com/blogs/apple-maps.html"
+   },
+   {
+    "title": "Reverse geocode a location | Apple Developer Documentation",
+    "url": "https://developer.apple.com/documentation/applemapsserverapi/-v1-reversegeocode"
+   },
+   {
+    "title": "Geocoding Location Data - Apple Developer",
+    "url": "https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/UsingGeocoders/UsingGeocoders.html"
+   },
+   {
+    "title": "Reverse geocode a location | Apple Developer Documentation",
+    "url": "https://msc-kobol-public-prod.apple.com/documentation/applemapsserverapi/-v1-reversegeocode"
+   },
+   {
+    "title": "CLGeocoder | Apple Developer Documentation",
+    "url": "https://developer.apple.com/documentation/corelocation/clgeocoder"
+   },
+   {
+    "title": "Annotations and Reverse Geocoding - Sample Code - Apple Maps ...",
+    "url": "https://developer.apple.com/maps/sample-code/annotations-and-reverse-geocoding/"
+   },
+   {
+    "title": "Reverse geocode a location | Apple Developer Documentation",
+    "url": "https://ma-kobol-public-prod.apple.com/documentation/applemapsserverapi/-v1-reversegeocode"
+   },
+   {
+    "title": "Business Connect: Location 'In Review' over a month",
+    "url": "https://discussions.apple.com/thread/256308036"
+   },
+   {
+    "title": "Apple Business Connect leaves a lot to be desired",
+    "url": "https://www.reddit.com/r/applemaps/comments/1g5sk13/apple_business_connect_leaves_a_lot_to_be_desired/"
+   },
+   {
+    "title": "Wrong Business Address",
+    "url": "https://discussions.apple.com/thread/255054716"
+   },
+   {
+    "title": "[Poll] Are Businesses Using Apple Business Connect?",
+    "url": "https://www.brightlocal.com/research/are-businesses-using-apple-business-connect/"
+   },
+   {
+    "title": "How to Change Your Business Address on Apple Maps",
+    "url": "https://files.crisesnotes.com/article/fix-your-business-location-fast-how-to-change-your-business-address-on-apple-maps"
+   },
+   {
+    "title": "Unable to update or modify any business i\u2026",
+    "url": "https://discussions.apple.com/thread/255119535"
+   },
+   {
+    "title": "Apple Business Connect Explained: Reaching iPhone ...",
+    "url": "https://www.jasminedirectory.com/blog/apple-business-connect-explained-reaching-iphone-users-via-apple-maps/"
+   },
+   {
+    "title": "Apple Business Connect is a broken servic\u2026",
+    "url": "https://discussions.apple.com/thread/256028495"
+   },
+   {
+    "title": "Maintain location information accuracy with Apple Business",
+    "url": "https://support.apple.com/guide/business/maintain-location-information-accuracy-abcb91c1d565/web"
+   },
+   {
+    "title": "How to report an error or incorrect information in Apple Maps",
+    "url": "https://www.idownloadblog.com/2023/05/23/how-to-report-errors-apple-maps/"
+   },
+   {
+    "title": "Legal - Maps Report an Issue & Privacy- Apple",
+    "url": "https://www.apple.com/ca/legal/privacy/data/en/maps-report-an-issue/"
+   },
+   {
+    "title": "How do I correct Apple Maps location? - Apple Community",
+    "url": "https://discussions.apple.com/thread/256285630"
+   },
+   {
+    "title": "How to report problems with Apple Maps - AppleToolBox",
+    "url": "https://appletoolbox.com/how-to-report-problems-with-apple-maps/"
+   },
+   {
+    "title": "Change of Address Best Practice | Apple Business Partner Guides",
+    "url": "https://business.apple.com/docs/onboarding-guide/best-practices/change-address"
+   },
+   {
+    "title": "How to get road number or name corrected \u2026 - Apple Community",
+    "url": "https://discussions.apple.com/thread/253700282"
+   },
+   {
+    "title": "How to correct an address on maps and hav\u2026 - Apple Community",
+    "url": "https://discussions.apple.com/thread/255883016"
+   },
+   {
+    "title": "How does Apple Maps get away with using OSM data?",
+    "url": "https://www.reddit.com/r/openstreetmap/comments/xlbvht/how_does_apple_maps_get_away_with_using_osm_data/"
+   },
+   {
+    "title": "Apple - OpenStreetMap Wiki",
+    "url": "https://wiki.openstreetmap.org/wiki/Apple"
+   },
+   {
+    "title": "OpenStreets 4 Open Street Map - App Store - Apple",
+    "url": "https://apps.apple.com/us/app/openstreets-4-open-street-map/id1241524252"
+   },
+   {
+    "title": "Import Apple Maps data into OSM? - Help and support",
+    "url": "https://community.openstreetmap.org/t/import-apple-maps-data-into-osm/3246"
+   },
+   {
+    "title": "How Facebook, Apple and Microsoft are contributing to an ...",
+    "url": "https://theodi.org/news-and-events/blog/how-are-facebook-apple-and-microsoft-contributing-to-openstreetmap/"
+   },
+   {
+    "title": "What are the implications of Apple using OpenStreetMap ...",
+    "url": "https://www.quora.com/What-are-the-implications-of-Apple-using-OpenStreetMap-tiles-and-data-instead-of-Google-Maps-on-iOS-devices"
+   },
+   {
+    "title": "osmlab/appledata",
+    "url": "https://github.com/osmlab/appledata"
+   },
+   {
+    "title": "Does Apple Maps belong to Apple in the US\u2026",
+    "url": "https://discussions.apple.com/thread/255100951"
+   },
+   {
+    "title": "Apple to license TomTom's content",
+    "url": "https://www.tomtom.com/newsroom/press-releases/general/18051/apple-to-license-tomtoms-content/"
+   },
+   {
+    "title": "Apple Signs Map Licensing Deal With TomTom",
+    "url": "https://www.forbes.com/sites/ericsavitz/2012/06/12/apple-signs-map-licensing-deal-with-tomtom/"
+   },
+   {
+    "title": "TomTom EULA Terms & Conditions Overview",
+    "url": "https://www.tomtom.com/en-gb/legal/third-party-product-terms/"
+   },
+   {
+    "title": "SUB-LICENSE AGREEMENT (TomTom) - Company",
+    "url": "https://www.sygic.com/company/sub-license-agreement-tomtom"
+   },
+   {
+    "title": "Google Maps Platform Terms Of Service",
+    "url": "https://cloud.google.com/maps-platform/terms"
+   },
+   {
+    "title": "maps-sdk-for-web-examples/LICENSE.txt at master",
+    "url": "https://github.com/tomtom-international/maps-sdk-for-web-examples/blob/master/LICENSE.txt"
+   },
+   {
+    "title": "Amazon, Meta, Microsoft, and TomTom join forces to take on Google and Apple Maps",
+    "url": "https://sea.mashable.com/tech/25505/amazon-meta-microsoft-and-tomtom-join-forces-to-take-on-google-and-apple-maps"
+   },
+   {
+    "title": "Major tech companies join hands to kill Google\u2019s dominance in maps",
+    "url": "https://interestingengineering.com/innovation/tech-companies-aim-to-kill-googles-maps"
+   },
+   {
+    "title": "Is Google Maps finally over? Microsoft, Amazon, and Meta team up to launch Overture Maps Foundation to release open map dataset",
+    "url": "https://gigazine.net/gsc_news/en/20240725-overture-maps-foundation-releases-open-maps-datasets/"
+   },
+   {
+    "title": "Improving Meta\u2019s global maps",
+    "url": "https://engineering.fb.com/2023/02/07/web/basemap-facebook-instagram-whatsapp-improvements/"
+   },
+   {
+    "title": "Exploring the Future of Open Source Solutions in the Mobile Industry",
+    "url": "https://www.linuxfoundation.org/blog/exploring-the-future-of-open-source-solutions-in-the-mobile-industry"
+   },
+   {
+    "title": "Hyundai ties up with AWS, Meta, Microsoft for open map",
+    "url": "https://www.kedglobal.com/automobiles/newsView/ked202405280007"
+   },
+   {
+    "title": "What Ever Happened to MapQuest?",
+    "url": "https://www.techspot.com/article/2841-mapquest/"
+   },
+   {
+    "title": "Microsoft, Meta and Amazon join hands to take on Google in mapping space, here\u2019s how",
+    "url": "https://timesofindia.indiatimes.com/gadgets-news/microsoft-meta-and-amazon-join-hands-to-take-on-google-in-mapping-space-heres-how/articleshow/96285190.cms"
+   },
+   {
+    "title": "These neighborhoods seemed safe from wildfire. Then they burned.",
+    "url": "https://www.washingtonpost.com/weather/2026/08/07/these-neighborhoods-seemed-safe-wildfire-then-they-burned/"
+   },
+   {
+    "title": "Microsoft, Amazon & Meta launch Overture Maps in bid to take on Google & Apple",
+    "url": "https://www.dexerto.com/tech/microsoft-amazon-meta-launch-overture-maps-in-bid-to-take-on-google-apple-2225928/"
+   }
+  ]
+ },
+ "delivery": {
+  "requestId": "b1ce2311-c086-46cf-a559-b28f29452437",
+  "sources": [
+   {
+    "title": "Google Maps",
+    "url": "https://maps.google.com/"
+   },
+   {
+    "title": "Geocoding API overview | Google for Developers",
+    "url": "https://developers.google.com/maps/documentation/geocoding/guides-v3/overview"
+   },
+   {
+    "title": "Navigation Map Data Providers: Comparing HERE, TomTom, Google ...",
+    "url": "https://navigationsystemsauthority.com/map-data-providers-comparison/"
+   },
+   {
+    "title": "Geocoding for address and places search | Mapbox",
+    "url": "https://www.mapbox.com/geocoding"
+   },
+   {
+    "title": "Best Geocoding APIs Compared in 2026 | Continuuiti",
+    "url": "https://continuuiti.com/blog/best-geocoding-api/"
+   },
+   {
+    "title": "Google Maps vs Mapbox vs HERE Geocoding API (2026)",
+    "url": "https://apiscout.dev/guides/google-maps-vs-mapbox-vs-here-geocoding-api-2026"
+   },
+   {
+    "title": "HERE Geocoding & Search | POI Database | Platform | HERE",
+    "url": "https://www.here.com/platform/geocoding"
+   },
+   {
+    "title": "What is CASS? | Address Verification",
+    "url": "https://www.loqate.com/en-us/blog/what-is-cass/"
+   },
+   {
+    "title": "Free Address Verification & Validation Tool for USPS ... - Smarty",
+    "url": "https://www.smarty.com/products/single-address"
+   },
+   {
+    "title": "How to Choose Best Address Verification Provider",
+    "url": "https://www.melissa.com/address-experts/how-to-choose-best-address-verification-provider"
+   },
+   {
+    "title": "CASS - PostalPro",
+    "url": "https://postalpro.usps.com/certifications/cass"
+   },
+   {
+    "title": "Address Verification APIs: USPS vs Google vs Smarty (2026)",
+    "url": "https://atoship.com/blog/address-verification-apis-usps-google-smartystreets"
+   },
+   {
+    "title": "Delivery Options: PO Box, Street Address, Locker, Site ...",
+    "url": "https://www.loqate.com/en-us/blog/delivery-options/"
+   },
+   {
+    "title": "Best Address Verification APIs in 2026",
+    "url": "https://batchdata.io/blog/best-address-verification-apis-2026-complete-comparison-guide"
+   },
+   {
+    "title": "CASS Address Validation: A Comprehensive Guide",
+    "url": "https://dataladder.com/cass-address-validation-guide/"
+   },
+   {
+    "title": "Bulk address validation - Amazon Location Service",
+    "url": "https://aws.amazon.com/location/address_validation/"
+   },
+   {
+    "title": "Smarty Integration",
+    "url": "https://oscilar.com/marketplace/smarty"
+   },
+   {
+    "title": "Why did Uber switch back to Google Map from MapBox?",
+    "url": "https://www.quora.com/Why-did-Uber-switch-back-to-Google-Map-from-MapBox"
+   },
+   {
+    "title": "Getting an Uber in Google Maps Just Got Easier",
+    "url": "https://www.uber.com/us/en/newsroom/googlemaps/"
+   },
+   {
+    "title": "Request a ride - Google Maps Help",
+    "url": "https://support.google.com/maps/answer/7245278?hl=en"
+   },
+   {
+    "title": "Mapbox | Maps, Navigation, Search, and Data",
+    "url": "https://www.mapbox.com/"
+   },
+   {
+    "title": "Real-Time Location Tracking: Google Maps vs Mapbox vs ...",
+    "url": "https://acquaintsoft.com/blog/real-time-location-tracking-ride-hailing"
+   },
+   {
+    "title": "Lyft & Uber GPS Mistakes Could Be Costing You",
+    "url": "https://www.youtube.com/watch?v=weUs2uInKLM&vl=en"
+   },
+   {
+    "title": "Geocoding Service | Maps JavaScript API",
+    "url": "https://developers.google.com/maps/documentation/javascript/geocoding"
+   },
+   {
+    "title": "Does Uber use Google Maps API for rides ETA?",
+    "url": "https://www.reddit.com/r/uber/comments/ml4jle/does_uber_use_google_maps_api_for_rides_eta/"
+   },
+   {
+    "title": "Maps provider for a regional ride-hailing app",
+    "url": "https://www.cabgo.app/en/blog/elegir-proveedor-mapas-ride-hailing"
+   },
+   {
+    "title": "Which geocoding providers allow storing of geocoded data?",
+    "url": "https://gis.stackexchange.com/questions/175974/which-geocoding-providers-allow-storing-of-geocoded-data"
+   },
+   {
+    "title": "Address Element Correction (AEC) - PostalPro",
+    "url": "https://postalpro.usps.com/address-quality/aec"
+   },
+   {
+    "title": "Address Quality Solutions | PostalPro",
+    "url": "https://postalpro.usps.com/address-quality"
+   },
+   {
+    "title": "What is CASS\u2122? The USPS\u00ae Coding Accuracy Support System",
+    "url": "https://www.smarty.com/articles/what-is-cass"
+   },
+   {
+    "title": "Validating an Address with CASS\u2122 and DPV\u00ae Data",
+    "url": "https://www.experian.com/blogs/data-quality/validating-an-address-with-cass-and-dpv-data/"
+   },
+   {
+    "title": "Address Correction (CASS/NCOA)",
+    "url": "https://support.civisanalytics.com/hc/en-us/articles/213755663-Address-Correction-CASS-NCOA"
+   },
+   {
+    "title": "USPS CASS Cycle O \u2013 What you need to know",
+    "url": "https://firstlogic.com/insights/usps-cass-cycle-o"
+   },
+   {
+    "title": "Address Correction Notices",
+    "url": "https://www.federalregister.gov/documents/2023/02/07/2023-02309/address-correction-notices"
+   },
+   {
+    "title": "Coding Accuracy Support System (CASS)",
+    "url": "https://docs.experianaperture.io/address-validation/pro-web/address-search-types/coding-accuracy-support-system-cass/"
+   },
+   {
+    "title": "US Address Verification by Smarty",
+    "url": "https://www.smarty.com/products/us-address-verification"
+   },
+   {
+    "title": "USPS\u00ae address verification | Free tools and best options",
+    "url": "https://www.smarty.com/articles/usps-address-verification"
+   },
+   {
+    "title": "What is address validation/verification?",
+    "url": "https://www.smarty.com/articles/what-is-address-validation"
+   },
+   {
+    "title": "Smarty's glossary",
+    "url": "https://www.smarty.com/articles/glossary"
+   },
+   {
+    "title": "Smarty: USPS & International Address Verification",
+    "url": "https://www.smarty.com/"
+   },
+   {
+    "title": "The USPS address validation API - Smarty",
+    "url": "https://www.smarty.com/articles/usps-api"
+   },
+   {
+    "title": "US Address Verification Reviews & Ratings 2026",
+    "url": "https://www.gartner.com/reviews/product/us-address-verification"
+   },
+   {
+    "title": "Address Verification Software & API",
+    "url": "https://www.loqate.com/en-us/address-verification/"
+   },
+   {
+    "title": "What is Address Correction?",
+    "url": "https://www.loqate.com/en-us/glossary/address-correction/"
+   },
+   {
+    "title": "What is Address Validation?",
+    "url": "https://www.loqate.com/en-us/glossary/address-validation/"
+   },
+   {
+    "title": "Address Verify Quick Start Guide for Batch Address Validation",
+    "url": "https://docs.loqate.com/our-services/address-verify/address-verify-quick-start"
+   },
+   {
+    "title": "Loqate | USPS & International Address Validation | US",
+    "url": "https://www.loqate.com/en-us/"
+   },
+   {
+    "title": "Loqate | Redpoint Documentation",
+    "url": "https://docs.redpointglobal.com/rpdm/loqate"
+   },
+   {
+    "title": "Loqate Address Verification ANZ",
+    "url": "https://www.gbg.com/apac/address-verification/"
+   },
+   {
+    "title": "Loqate Address Validation",
+    "url": "https://docs.shipperhq.com/how-to-set-up-loqate-for-address-validation"
+   },
+   {
+    "title": "How Loqate sets the standard in global address verification",
+    "url": "https://www.loqate.com/en-us/blog/how-loqate-sets-the-standard-in-global-address-verification/"
+   },
+   {
+    "title": "Correcting an incorrect address location in Google Maps",
+    "url": "https://support.google.com/maps/thread/11563904/correcting-an-incorrect-address-location-in-google-maps?hl=en"
+   },
+   {
+    "title": "How to Fix Wrong Country or Location in Google Search (Step- ...",
+    "url": "https://support.google.com/websearch/community-video/329008853/how-to-fix-wrong-country-or-location-in-google-search-step-by-step-guide?hl=en"
+   },
+   {
+    "title": "Incorrect Location in Google Maps - How Do I Fix It?",
+    "url": "https://www.reddit.com/r/GoogleMaps/comments/q4oi98/incorrect_location_in_google_maps_how_do_i_fix_it/"
+   },
+   {
+    "title": "My Business Address is Wrong on Google Maps and How ...",
+    "url": "https://versacreative.com/blog/wrong-address-on-google-maps/"
+   },
+   {
+    "title": "How to fix incorrect google maps address?",
+    "url": "https://www.facebook.com/groups/gmb.gbp.support/posts/1650979252134523/"
+   },
+   {
+    "title": "Fix Google Maps Wrong Address for Your Business",
+    "url": "https://www.justanswer.com/software/voj2c-google-maps-wrong-business-address.html"
+   },
+   {
+    "title": "New home address location issues on Google Maps.",
+    "url": "https://support.google.com/maps/thread/332506591/new-home-address-location-issues-on-google-maps?hl=en"
+   },
+   {
+    "title": "Google Maps Platform FAQ",
+    "url": "https://developers.google.com/maps/faq"
+   },
+   {
+    "title": "Discover Address Validation",
+    "url": "https://mapsplatform.google.com/maps-products/address-validation/"
+   },
+   {
+    "title": "Fix a missing address or wrong pin location",
+    "url": "https://support.google.com/maps/answer/10010575"
+   },
+   {
+    "title": "Handle United States addresses \u00a0|\u00a0 Address Validation API \u00a0|\u00a0 Google for Developers",
+    "url": "https://developers.google.com/maps/documentation/address-validation/handle-us-address"
+   },
+   {
+    "title": "Fixing Address and Map Issues | GPS.gov",
+    "url": "https://www.gps.gov/fixing-address-and-map-issues"
+   },
+   {
+    "title": "How to submit address Feedback",
+    "url": "https://docs.here.com/map-feedback/docs/example-address-feedback"
+   },
+   {
+    "title": "An address is missing or incorrect",
+    "url": "https://support.google.com/googlecloud/answer/6137362?hl=en"
+   },
+   {
+    "title": "Report data or content errors on Google Maps",
+    "url": "https://support.google.com/maps/answer/3094088"
+   },
+   {
+    "title": "Address capture and validation\n       \n\n    \n     \n\n     \n      \n      Stay organized with collections\n     \n     \n      \n      Save and categorize content based on your preferences.",
+    "url": "https://developers.google.com/maps/documentation/mobility/services/capabilities/address-validation"
+   },
+   {
+    "title": "High-volume address validation guide \u00a0|\u00a0 Google Maps Platform \u00a0|\u00a0 Google for Developers",
+    "url": "https://developers.google.com/maps/architecture/high-volume-address-validation"
+   },
+   {
+    "title": null,
+    "url": "https://docs.mapbox.com/help/troubleshooting/reporting-a-problem/"
+   },
+   {
+    "title": null,
+    "url": "https://docs.mapbox.com/help/dive-deeper/reporting-data-issues/"
+   },
+   {
+    "title": "Reporting map errors using MapShare",
+    "url": "https://help.tomtom.com/hc/en-us/articles/360013960619-Reporting-map-errors-using-MapShare"
+   },
+   {
+    "title": "TomTom | Login page",
+    "url": "https://www.tomtom.com/mapshare/tools/"
+   },
+   {
+    "title": "Correcting errors on maps",
+    "url": "https://www.tomtomforums.com/threads/correcting-errors-on-maps.35618/"
+   },
+   {
+    "title": "Creating a map correction report",
+    "url": "https://download.tomtom.com/open/manuals/new_GO/html/en-gb/Creatingamapcorrectionreport.htm"
+   },
+   {
+    "title": "Post",
+    "url": "https://x.com/TomTom/status/2011368831092981848"
+   },
+   {
+    "title": "r/tomtom",
+    "url": "https://www.reddit.com/r/tomtom/"
+   },
+   {
+    "title": "How to Report a Mapping Problem Affecting GPS Devices ...",
+    "url": "https://archive.gps.gov/support/user/mapfix/devices-and-maps/"
+   },
+   {
+    "title": "Mapshare",
+    "url": "https://www.tomtom.com/mapshare/tools/new/mapshare/?id=20161814"
+   },
+   {
+    "title": "Incorrect speed limit on TomTom navigation",
+    "url": "https://www.facebook.com/groups/1439208566149446/posts/33951936481116567/"
+   },
+   {
+    "title": "Unable to change my location platform e-mail address.",
+    "url": "https://community.esri.com/en/discussion/1551701/unable-to-change-my-location-platform-e-mail-address"
+   },
+   {
+    "title": "Use Address Data Management\u2014ArcGIS Solutions",
+    "url": "https://doc.arcgis.com/en/arcgis-solutions/11.3/reference/use-address-data-management.htm"
+   },
+   {
+    "title": "Geocoder Search Zooms to Incorrect Location (but returns ...",
+    "url": "https://community.esri.com/t5/arcgis-enterprise-questions/geocoder-search-zooms-to-incorrect-location-but/td-p/1285652"
+   },
+   {
+    "title": "Tips for fixing errors in reference data | ArcGIS Pro ...",
+    "url": "https://doc.esri.com/en/arcgis-pro/latest/help/data/geocoding/tips-for-fixing-errors-in-reference-data.html"
+   },
+   {
+    "title": "Composite Locator Not Properly Locating Address Points",
+    "url": "https://community.esri.com/t5/arcgis-enterprise-questions/composite-locator-not-properly-locating-address/td-p/495988"
+   },
+   {
+    "title": "Rematch locations converted from a table | ArcGIS Pro ...",
+    "url": "https://doc.esri.com/en/arcgis-pro/latest/help/data/geocoding/rematch-locations-converted-from-a-table.html"
+   },
+   {
+    "title": "BUG-000185818 for ArcGIS Pro",
+    "url": "https://support.esri.com/en-us/bug/reverse-geocoding-returns-the-wrong-address-when-the-lo-bug-000185818"
+   },
+   {
+    "title": "ArcGIS Pro - Fix data when it appears in the wrong place",
+    "url": "https://mediaspace.esri.com/media/t/1_szh3wfni"
+   },
+   {
+    "title": "100% Match on wrong Address Number",
+    "url": "https://community.esri.com/t5/geoprocessing-questions/100-match-on-wrong-address-number/td-p/1242054"
+   },
+   {
+    "title": "Address Management System Office Locator | PostalPro",
+    "url": "https://postalpro.usps.com/ppro-tools/address-management-system"
+   },
+   {
+    "title": "Address Matching System API (AMS API) - PostalPro",
+    "url": "https://postalpro.usps.com/address-quality/ams-api"
+   },
+   {
+    "title": "Fixing USPS Address Errors: Quick Q&A Guide",
+    "url": "https://www.justanswer.com/tax/r5o0x-just-change-address-po-box-2019-dunlap-32327.html"
+   },
+   {
+    "title": "What Address Management Tools Are Available?",
+    "url": "https://faq.usps.com/s/article/What-Address-Management-Tools-Are-Available"
+   },
+   {
+    "title": "Address Management System Data",
+    "url": "https://www.uspsoig.gov/reports/audit-reports/address-management-system-data"
+   },
+   {
+    "title": "Address Management System",
+    "url": "https://about.usps.com/strategic-planning/cs02/2o2.htm"
+   },
+   {
+    "title": "How do I add a new address into the USPS system?",
+    "url": "https://www.reddit.com/r/homeowners/comments/tdwqir/how_do_i_add_a_new_address_into_the_usps_system/"
+   },
+   {
+    "title": "Adding your address to USPS",
+    "url": "https://help.smartlessmobile.com/Account_management/Adding_your_address_to_USPS"
+   },
+   {
+    "title": "Why address validation APIs matter for product and ... - Radar",
+    "url": "https://radar.com/blog/why-address-validation-apis-matter"
+   },
+   {
+    "title": "Leverage ArcGIS Geocoding for Address Validation, ...",
+    "url": "https://www.esri.com/arcgis-blog/products/arcgis/decision-support/verify-validate-and-standardize-your-addresses-with-arcgis-geocoding"
+   },
+   {
+    "title": "Address validation vs geocoding | Google Maps Platform",
+    "url": "https://developers.google.com/maps/architecture/geocoding-address-validation"
+   },
+   {
+    "title": "Engineering Blog - DoorDash",
+    "url": "https://careersatdoordash.com/engineering-blog/"
+   },
+   {
+    "title": "DoorDash Integration Food: Python Geocoding for Delivery ...",
+    "url": "https://www.johal.in/doordash-integration-food-python-geocoding-for-delivery-zone-management-2026"
+   },
+   {
+    "title": "Order address validation (geocoding) - Nash documentation",
+    "url": "https://docs.usenash.com/api-reference/order/order-address-validation-geocoding"
+   },
+   {
+    "title": "Best geocoding API | Smarty, Esri, and Google's APIs compared",
+    "url": "https://www.smarty.com/articles/geocoding-api-comparison"
+   },
+   {
+    "title": "Fix bad addresses with the Google Address Validation API",
+    "url": "https://blog.afi.io/blog/fix-bad-addresses-with-the-google-address-validation-api/"
+   },
+   {
+    "title": "What is Address Validation/Verification and 6 Ways To Do It",
+    "url": "https://www.geoapify.com/validate-addresses-with-api/"
+   },
+   {
+    "title": "Address Validation API overview",
+    "url": "https://developers.google.com/maps/documentation/address-validation/overview"
+   },
+   {
+    "title": "Google Address Validation API Is Generally Available to ...",
+    "url": "https://www.infoq.com/news/2023/01/google-address-validation-api/"
+   },
+   {
+    "title": "How to get address lookup API like food delivery services?",
+    "url": "https://www.facebook.com/groups/startupmamak/posts/1634170120047628/"
+   },
+   {
+    "title": "Geocoding",
+    "url": "https://developer.uber.com/docs/deliveries/guides/geocoding"
+   },
+   {
+    "title": "Address validation using Google Maps API",
+    "url": "https://stackoverflow.com/questions/682093/address-validation-using-google-maps-api"
+   },
+   {
+    "title": "Address Lookup API for Search, Validation, and ...",
+    "url": "https://www.geoapify.com/solutions/address-lookup/"
+   },
+   {
+    "title": "Address Validation API: Verify & Standardize Addresses",
+    "url": "https://mapatlas.eu/products-services/address-validation-api"
+   },
+   {
+    "title": "Best Address Verification APIs in 2026: Complete Comparison",
+    "url": "https://www.melissa.com/address-experts/best-address-verification-apis-complete-comparison"
+   },
+   {
+    "title": "Validate an address | Instacart Docs",
+    "url": "https://docs.instacart.com/connect/api/fulfillment/lastmile/validate_address/"
+   },
+   {
+    "title": "Create a Connect user and validate an address - Instacart",
+    "url": "https://docs.instacart.com/connect/api/fulfillment/users/create_user_and_address/"
+   },
+   {
+    "title": "Geocoding & Address Validation API \u2014 Acuris Geo",
+    "url": "https://www.acuris-geo.com/"
+   },
+   {
+    "title": "Instacart Company | Instacart Developer Platform",
+    "url": "https://company.instacart.com/business/developers"
+   },
+   {
+    "title": "Geoapify Location Platform: Maps, Geocoding, Routing, and APIs",
+    "url": "https://www.geoapify.com/"
+   },
+   {
+    "title": "Instacart builds global grocery service using Mapbox ...",
+    "url": "https://www.mapbox.com/showcase/instacart"
+   },
+   {
+    "title": "Wrong address is selected by google maps on grubhub ...",
+    "url": "https://support.google.com/maps/thread/331118142/wrong-address-is-selected-by-google-maps-on-grubhub-and-doordash-etc?hl=en"
+   },
+   {
+    "title": "Address Geocoding\u2014a Big Tip for Delivery Businesses",
+    "url": "https://www.serviceobjects.com/blog/address-geocoding-a-big-tip-for-delivery-businesses/"
+   },
+   {
+    "title": "AddressHub: Address Intelligence for Last-Mile",
+    "url": "https://address-hub.com/"
+   },
+   {
+    "title": "Address Validation & Geocoding with AWS Location Service",
+    "url": "https://community.boomi.com/boomi_community?id=kb_article_view&sysparm_article=KB0015903"
+   },
+   {
+    "title": "Amazon Location Service now offers bulk address ...",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-location-service-bulk-address-validation/"
+   },
+   {
+    "title": "Address validation - Amazon Location Service",
+    "url": "https://docs.aws.amazon.com/location/latest/developerguide/address-validation-concepts.html"
+   },
+   {
+    "title": "Geocode - Amazon Location Service",
+    "url": "https://docs.aws.amazon.com/location/latest/developerguide/geocode.html"
+   },
+   {
+    "title": "Missing Coordinates from Amazon Location Service ...",
+    "url": "https://repost.aws/questions/QU4kCISjYQTaGC_qkmBv7AEQ/missing-coordinates-from-amazon-location-service-geocoding-results"
+   },
+   {
+    "title": "Amazon Location Service - Places",
+    "url": "https://aws.amazon.com/location/places/"
+   },
+   {
+    "title": "How does Amazon validate addresses?",
+    "url": "https://www.quora.com/How-does-Amazon-validate-addresses"
+   },
+   {
+    "title": "Amazon Location Service now offers bulk address validation ...",
+    "url": "https://aws-news.com/article/2026-04-21-amazon-location-service-now-offers-bulk-address-validation-for-the-united-states-canada-australia-and-the-united-kingdom"
+   },
+   {
+    "title": "How Can I Change the Delivery Address for a Package?",
+    "url": "https://www.fedex.com/en-us/customer-support/faqs/sending/shipping/correct-shipping-address.html"
+   },
+   {
+    "title": "if your FedEx or UPS packages are frequently delivered to ...",
+    "url": "https://www.reddit.com/r/YouShouldKnow/comments/1i2h94t/ysk_if_your_fedex_or_ups_packages_are_frequently/"
+   },
+   {
+    "title": "What happens if my package was delivered to the wrong ...",
+    "url": "https://www.fedex.com/en-at/customer-support/faq/receiving/delivery-options-fedex/wrong-address.html"
+   },
+   {
+    "title": "FedEx Address Corrections: What you need to know",
+    "url": "https://www.refundretriever.com/blog/FedEx-address-corrections/"
+   },
+   {
+    "title": "How to get FedEx to correct an address in their system?",
+    "url": "https://www.facebook.com/groups/337911350786238/posts/1275702520340445/"
+   },
+   {
+    "title": "FedEx Address Change Fee Dispute",
+    "url": "https://www.justanswer.com/consumer-protection-law/mohre-fedex-completely-changed-delivery-address-not.html"
+   },
+   {
+    "title": "UPS & FedEx Address Correction Fees",
+    "url": "https://shipsigma.com/blog/ups-fedex-address-correction-fees"
+   },
+   {
+    "title": "Fedex etc googles my address and it shows my neighbor ...",
+    "url": "https://support.google.com/maps/thread/9487145/fedex-etc-googles-my-address-and-it-shows-my-neighbor-house-how-do-i-fix-so-pkgs-come-to-my-house?hl=en"
+   },
+   {
+    "title": "How to Prevent and Minimize FedEx and UPS Address ...",
+    "url": "https://sifted.com/resources/how-to-prevent-and-minimize-fedex-and-ups-address-correction-costs-pro-tips-faqs/"
+   },
+   {
+    "title": "Where to go for FedEx package delivery with incorrect address",
+    "url": "https://www.facebook.com/groups/242522111677967/posts/953101003953404/"
+   },
+   {
+    "title": "What is CASS Certified | CASS Address Validation ...",
+    "url": "https://www.postgrid.com/what-is-cass/"
+   },
+   {
+    "title": "What is CASS Certified Address Validation?",
+    "url": "https://accuzip.com/support/resources/direct-mail-postal-industry-blog/what-is-cass-certified-address-validation/"
+   },
+   {
+    "title": "CASS\u2122 Certified Products Guide: Vendor/Service Licensees ...",
+    "url": "https://postalpro.usps.com/cass/Vendor_Licensees_Datafile_CurrentCycle"
+   },
+   {
+    "title": "CASS Certification: Reduced Costs & Improved Deliveries",
+    "url": "https://www.easypost.com/blog/2025-06-13-cass-certification-reduced-costs-and-improved-deliveries/"
+   },
+   {
+    "title": "Guide to CASS\u2122 Certification",
+    "url": "https://www.compu-mail.com/blog/what-is-cass-certification/"
+   },
+   {
+    "title": "What is CASS(Coding Accuracy Support System) Certification",
+    "url": "https://www.melissa.com/address-experts/what-is-cass-certification"
+   },
+   {
+    "title": "What is CASS Certification? - Lob",
+    "url": "https://www.lob.com/blog/what-is-cass-certification"
+   }
+  ]
+ },
+ "fortmason": {
+  "requestId": "8fa62aa5-0daf-4d33-b1c9-80b9b009e872",
+  "sources": [
+   {
+    "title": "Visit Fort Mason Center for Arts & Culture | (415) 345-7500",
+    "url": "https://fortmason.org/visit/"
+   },
+   {
+    "title": "4 Fort Mason, San Francisco, CA 94123",
+    "url": "https://www.zillow.com/homedetails/4-Fort-Mason-San-Francisco-CA-94123/2098890085_zpid/"
+   },
+   {
+    "title": "4 Fort Mason, San Francisco, CA 94123 - Room for Rent in ...",
+    "url": "https://www.apartments.com/4-fort-mason-san-francisco-ca/9ycxcl5/"
+   },
+   {
+    "title": "Fort Mason Center",
+    "url": "https://www.sfmta.com/places/fort-mason-center"
+   },
+   {
+    "title": "Contact | Fort Mason Center for Arts & ...",
+    "url": "https://fortmason.org/about/contact-fort-mason-center/"
+   },
+   {
+    "title": "Fort Mason - Golden Gate",
+    "url": "https://www.nps.gov/goga/planyourvisit/fort-mason.htm"
+   },
+   {
+    "title": "Fort Mason",
+    "url": "https://en.wikipedia.org/wiki/Fort_Mason"
+   },
+   {
+    "title": "48 Fort Mason # 11, San Francisco, CA 94123",
+    "url": "https://www.realtor.com/realestateandhomes-detail/48-Fort-Mason-11_San-Francisco_CA_94123_M16364-90226"
+   },
+   {
+    "title": "Directions & Parking",
+    "url": "https://fortmason.org/visit/directions-parking/"
+   },
+   {
+    "title": "Fort Mason San Francisco Address",
+    "url": "https://www.facebook.com/fb-answers/fort-mason-san-francisco-address/"
+   },
+   {
+    "title": "Fort Mason Residences: Living History",
+    "url": "https://www.gaetanirealestate.com/fort-mason-residences-living-history"
+   },
+   {
+    "title": "Fort Mason",
+    "url": "https://www.nps.gov/places/000/fort-mason.htm"
+   },
+   {
+    "title": "San Francisco's Fort Mason military housing in 2012",
+    "url": "https://www.facebook.com/groups/1411879629035576/posts/3620922488131268/"
+   },
+   {
+    "title": "Fort Mason Village",
+    "url": "https://www.faycha.org/fort-mason-village/"
+   },
+   {
+    "title": "Upper Fort Mason",
+    "url": "https://storymaps.arcgis.com/stories/931fe1e59a4e408591150230dbf05bd8"
+   },
+   {
+    "title": "Fort Mason Map",
+    "url": "https://farallones.org/wp-content/uploads/2019/04/Fort-Mason-Map_Directions.pdf"
+   },
+   {
+    "title": "Upper Level Residence Halls - Housing (gmu.edu)",
+    "url": "https://housing.gmu.edu/residence-halls/upper-level-residence-halls"
+   },
+   {
+    "title": "Fort Mason - Parks",
+    "url": "https://www.parksconservancy.org/parks/fort-mason"
+   },
+   {
+    "title": "History - Fort Mason Center for Arts & ...",
+    "url": "https://fortmason.org/about/history/"
+   },
+   {
+    "title": "FORT MASON CENTER FOR ARTS & CULTURE",
+    "url": "https://www.yelp.com/biz/fort-mason-center-for-arts-and-culture-san-francisco"
+   },
+   {
+    "title": "San Francisco Event Space Rentals | Fort Mason Center",
+    "url": "https://fortmason.org/venues/"
+   },
+   {
+    "title": "Fort Mason Center",
+    "url": "https://fortmason.org/"
+   },
+   {
+    "title": "Fort Mason Center for Arts & Culture (@fortmasoncenter)",
+    "url": "https://www.instagram.com/fortmasoncenter/?hl=en"
+   },
+   {
+    "title": "Contact Us - Golden Gate National Recreation Area ...",
+    "url": "https://www.nps.gov/goga/contacts.htm"
+   },
+   {
+    "title": "Our Staff & Offices - Golden Gate National Recreation Area ...",
+    "url": "https://www.nps.gov/goga/learn/management/staffandoffices.htm"
+   },
+   {
+    "title": "Contact Us",
+    "url": "https://www.parksconservancy.org/about/contact-us"
+   },
+   {
+    "title": "Golden Gate National Recreation Area, California",
+    "url": "https://www.nps.gov/goga/"
+   },
+   {
+    "title": "What Do the Golden Gate National Parks Give You?",
+    "url": "https://www.parksconservancy.org/video/what-do-golden-gate-national-parks-give-you"
+   },
+   {
+    "title": "Fort Mason - Golden Gate National Recreation Area (U.S. ...",
+    "url": "https://www.nps.gov/goga/learn/historyculture/fort-mason.htm"
+   },
+   {
+    "title": "National Park Service - Home",
+    "url": "https://www.facebook.com/pages/National-Park-Service/148916738808353"
+   },
+   {
+    "title": "GGNRA Museum Program Contacts",
+    "url": "https://www.nps.gov/goga/learn/historyculture/ggnra-museum-program-contacts.htm"
+   },
+   {
+    "title": "San Francisco Enterprise GIS",
+    "url": "https://www.sf.gov/departments--san-francisco-enterprise-gis"
+   },
+   {
+    "title": "San Francisco Addresses - Enterprise Addressing System",
+    "url": "https://catalog.data.gov/dataset/san-francisco-addresses-enterprise-addressing-system"
+   },
+   {
+    "title": "Enterprise Addressing System - San Francisco Open Data",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/San-Francisco-Addresses-with-Units-Enterprise-Addr/ramy-di5m/explore/query/SELECT%0A%20%20%60eas_fullid%60%2C%0A%20%20%60eas_baseid%60%2C%0A%20%20%60address_number%60%2C%0A%20%20%60address_number_suffix%60%2C%0A%20%20%60street_name%60%2C%0A%20%20%60street_type%60%2C%0A%20%20%60street_full_street_name%60%2C%0A%20%20%60cnn%60%2C%0A%20%20%60eas_subid%60%2C%0A%20%20%60unit_number%60%2C%0A%20%20%60parcel_number%60%2C%0A%20%20%60block%60%2C%0A%20%20%60lot%60%2C%0A%20%20%60zip_code%60%2C%0A%20%20%60address%60%2C%0A%20%20%60longitude%60%2C%0A%20%20%60latitude%60%2C%0A%20%20%60point%60%2C%0A%20%20%60supdist%60%2C%0A%20%20%60numbertext%60%2C%0A%20%20%60supervisor%60%2C%0A%20%20%60supdistpad%60%2C%0A%20%20%60supname%60%2C%0A%20%20%60nhood%60%2C%0A%20%20%60complete_landmark_name%60%2C%0A%20%20%60landmark_aliases%60%2C%0A%20%20%60direct_source%60%2C%0A%20%20%60data_as_of%60%2C%0A%20%20%60data_updated_at%60%2C%0A%20%20%60data_loaded_at%60%0AWHERE%0A%20%20%60address_number%60%20IN%20%28%22201%22%29%0A%20%20AND%20caseless_contains%28%60street_name%60%2C%20%22columbus%22%29/page/filter"
+   },
+   {
+    "title": "Confluence - Jira",
+    "url": "https://sfgovdt.jira.com/wiki/spaces/MAD?homepageId=3473479"
+   },
+   {
+    "title": "Enterprise Addressing System - San Francisco Open Data",
+    "url": "https://data.sf.gov/Geographic-Locations-and-Boundaries/Addresses-with-Units-Enterprise-Addressing-System/ramy-di5m"
+   },
+   {
+    "title": "Enterprise Addressing System (from DataSF, pulled nightly)",
+    "url": "https://hub.arcgis.com/datasets/sfgov::addresses-enterprise-addressing-system-from-datasf-pulled-nightly?uiVersion=content-views"
+   },
+   {
+    "title": "San Francisco Addresses with Units - Enterprise ...",
+    "url": "https://catalog.data.gov/dataset/san-francisco-addresses-with-units-enterprise-addressing-system"
+   },
+   {
+    "title": "Project: Fort Mason Center for Arts & Culture - Plural Studio",
+    "url": "https://www.plural.studio/fort-mason"
+   },
+   {
+    "title": "Fort Mason in San Francisco, CA, United States",
+    "url": "https://maps.apple.com/place?auid=4224980594131656772"
+   },
+   {
+    "title": "Anyone else having delivery problems with the new 911 ...",
+    "url": "https://www.facebook.com/groups/668894631001591/posts/1256149428942772/"
+   },
+   {
+    "title": "Enhancing Esri's World Geocoding Service and Road ...",
+    "url": "https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/enhancing-esris-world-geocoding-service-and-road-centerlines-in-teton-county-idaho"
+   },
+   {
+    "title": "Top 5 Challenges in Geocoding Accuracy and How to ...",
+    "url": "https://www.lightboxre.com/insight/top-5-challenges-in-geocoding-accuracy-and-how-to-solve-them/"
+   },
+   {
+    "title": "Geocoding Best Practices for Delivery Management",
+    "url": "https://routinguk.descartes.com/resources/geocoding-best-practices-delivery-management"
+   },
+   {
+    "title": "Don't Take Shortcuts When Developing GIS Data for NG911",
+    "url": "https://www.911.gov/assets/Whitepaper---Don_t-Take-Shortcuts-When-Developing-GIS-Data-for-NG911.pdf"
+   },
+   {
+    "title": "Last-Mile Delivery Is a Location Problem",
+    "url": "https://pointonenav.com/insights/last-mile-delivery-is-a-location-problem/"
+   },
+   {
+    "title": "San Francisco 911 Response Times Fastest in Years",
+    "url": "https://www.facebook.com/danielluriesf/videos/our-911-response-times-are-the-fastest-they-have-been-in-yearswith-90-of-calls-a/1919159018730465/"
+   },
+   {
+    "title": "Text-to-911 can't locate you as accurately as voice calls, ...",
+    "url": "https://www.nbcbayarea.com/news/local/text-to-911-geo-location-problem-investigation/3328367/"
+   },
+   {
+    "title": "Indoor Location Accuracy Timeline and Live Call Data ...",
+    "url": "https://www.fcc.gov/public-safety-and-homeland-security/policy-and-licensing-division/911-services/general/location-accuracy-indoor-benchmarks"
+   },
+   {
+    "title": "GIS Data Upgrades in Preparation for Next Generation 911",
+    "url": "https://geotg.com/gis-data-upgrades-ng911/"
+   },
+   {
+    "title": "Fort Mason Map",
+    "url": "https://www.nps.gov/goga/planyourvisit/upload/map-foma_accessibility.pdf"
+   },
+   {
+    "title": "Fort Mason Historic District Tour",
+    "url": "https://www.sfcityguides.org/tour/fort-mason-historic-district/"
+   },
+   {
+    "title": "A Brief History of Fort Mason",
+    "url": "https://environmentamericas.org/2024/07/06/a-brief-history-of-fort-mason/"
+   },
+   {
+    "title": "This Time at Fort Mason in San Francisco",
+    "url": "https://emergingcivilwar.com/2026/03/05/encountering-john-c-fremont-yet-again-this-time-at-fort-mason-in-san-francisco/"
+   },
+   {
+    "title": "Fort Mason San Francisco Map",
+    "url": "https://www.facebook.com/fb-answers/fort-mason-san-francisco-map/"
+   },
+   {
+    "title": null,
+    "url": "https://sfdigitalservices.gitbook.io/data-standards-guide/standard-reference-data/addressing/enterprise-address-system-eas"
+   },
+   {
+    "title": "AB-035 Procedure for Assigning Street Numbers (Addresses)",
+    "url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_building/0-0-0-94449"
+   },
+   {
+    "title": null,
+    "url": "https://sfdigitalservices.gitbook.io/data-standards-guide/data-structure-and-formats/formats/location-addresses"
+   },
+   {
+    "title": "AB-035 Procedure for Assigning Street Numbers (Addresses)",
+    "url": "https://codelibrary.amlegal.com/codes/san_francisco/57e5f03c-2e0f-4ad9-8c7f-f6fef7e7e402/sf_building/0-0-0-94449"
+   },
+   {
+    "title": "Cultural Landscape Report for Upper Fort Mason",
+    "url": "https://www.nps.gov/goga/learn/historyculture/upload/Upper-FOMA-CLR-Vol-II-Treatment-for-web.pdf"
+   },
+   {
+    "title": "General's Residence Checklist",
+    "url": "https://fortmason.org/wp-content/uploads/2021/09/GR_Info_Pkt_2021.pdf"
+   },
+   {
+    "title": "About Fort Mason Center For Arts & Culture",
+    "url": "https://fortmason.org/about/"
+   },
+   {
+    "title": "Notice",
+    "url": "https://www.federalregister.gov/documents/2013/05/15/2013-11569/notice-of-approval-of-record-of-decision-for-extending-f-line-streetcar-service-to-fort-mason-center"
+   },
+   {
+    "title": "GOLDEN GATE NATIONAL RECREATION AREA",
+    "url": "https://uscode.house.gov/view.xhtml?path=/prelim@title16/chapter1/subchapter86&edition=prelim"
+   },
+   {
+    "title": "National Register of Historic Places Inventory Nomination ...",
+    "url": "https://npshistory.com/publications/goga/nr-sf-army-embarkation-port.pdf"
+   },
+   {
+    "title": "Federal Register, Volume 71 Issue 60 (Wednesday, March ...",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2006-03-29/html/E6-4548.htm"
+   },
+   {
+    "title": "Magnificent Fort Mason",
+    "url": "https://www.sfmta.com/blog/magnificent-fort-mason"
+   },
+   {
+    "title": "Fort Mason",
+    "url": "https://www.west8.com/projects/fort-mason/"
+   },
+   {
+    "title": "Delivery Address | Postal Explorer - USPS",
+    "url": "https://pe.usps.com/businessmail101?ViewName=DeliveryAddress"
+   },
+   {
+    "title": "SAN FRANCISCO GEN DEL",
+    "url": "https://tools.usps.com/locations/details/1492402"
+   },
+   {
+    "title": "26 General Delivery Addresses - Postal Explorer - USPS",
+    "url": "https://pe.usps.com/text/pub28/28c2_032.htm"
+   },
+   {
+    "title": "SAN FRANCISCO",
+    "url": "https://tools.usps.com/locations/details/1440671"
+   },
+   {
+    "title": "Correct Mailing Address Format: USPS & International ...",
+    "url": "https://batchdata.io/blog/correct-mailing-address-format"
+   },
+   {
+    "title": "Publication 28 - Postal Addressing Standards",
+    "url": "https://pe.usps.com/cpim/ftp/pubs/pub28/pub28.pdf"
+   },
+   {
+    "title": "602 Addressing | Postal Explorer - USPS",
+    "url": "https://pe.usps.com/text/dmm300/602.htm"
+   },
+   {
+    "title": "How to Write the US Address Format Correctly?",
+    "url": "https://www.postgrid.com/us-address-format/"
+   },
+   {
+    "title": "How to Check an Address with USPS | Tutorial",
+    "url": "https://www.youtube.com/watch?v=G3LSZLPP_Nk"
+   },
+   {
+    "title": "Military Address Formatting for USPS Shipping - Help Center",
+    "url": "https://help.whiplash.com/hc/en-us/articles/360059254972-Military-Address-Formatting-for-USPS-Shipping"
+   },
+   {
+    "title": "Fort Mason Map",
+    "url": "http://www.bmdcnc.org/list/fort-mason-map-2.pdf"
+   },
+   {
+    "title": "Directions",
+    "url": "https://www.postcard.org/directions.htm"
+   },
+   {
+    "title": "Unsigned Streets of San Francisco - sfgazetteer.com",
+    "url": "https://sfgazetteer.com/unsigned-streets-of-san-francisco.html"
+   },
+   {
+    "title": "FOR-SITE \u2013 Andy Goldsworthy: Red Flags",
+    "url": "https://fortmason.org/event/for-site-andy-goldsworthy-red-flags/2026-07-25/"
+   },
+   {
+    "title": "Fort Mason Center for Arts & Culture ...",
+    "url": "https://www.instagram.com/reel/C8kTsLhPRhC/"
+   },
+   {
+    "title": "This Saturday, August 9, join us for an exhibition closing ...",
+    "url": "https://www.instagram.com/reel/DNHYyauJ3gr/"
+   },
+   {
+    "title": "Venues Archive - San Francisco",
+    "url": "https://fortmason.org/our-venues/"
+   },
+   {
+    "title": "Fort Mason Center for Arts & Culture - San Francisco, CA",
+    "url": "https://www.meetings-conventions.com/Meeting-Event-Venues/San-Francisco/Convention-Center/Fort-Mason-Center-for-Arts-Culture-p55345010"
+   },
+   {
+    "title": "unable to fix road name - Google Maps Community",
+    "url": "https://support.google.com/maps/thread/471036591/unable-to-fix-road-name?hl=en"
+   },
+   {
+    "title": "Google maps won't accept 911 address when I try to submit ...",
+    "url": "https://support.google.com/maps/thread/364664610/google-maps-won%E2%80%99t-accept-911-address-when-i-try-to-submit-edits?hl=en"
+   },
+   {
+    "title": "Troubleshoot | Geolocation API",
+    "url": "https://developers.google.com/maps/documentation/geolocation/requests-geolocation-errors"
+   },
+   {
+    "title": "Google Maps does not follow GIS or 911 Addressing",
+    "url": "https://support.google.com/maps/thread/366308988/google-maps-does-not-follow-gis-or-911-addressing?hl=en"
+   },
+   {
+    "title": "Fix Your Google Maps Location",
+    "url": "https://files.crisesnotes.com/article/fix-your-google-maps-location-the-definitive-fix-for-wrong-coordinates"
+   },
+   {
+    "title": "Error Messages | Maps JavaScript API",
+    "url": "https://developers.google.com/maps/documentation/javascript/error-messages"
+   },
+   {
+    "title": "Google Maps has my home address incorrect. Have been ...",
+    "url": "https://support.google.com/maps/thread/469381662/google-maps-has-my-home-address-incorrect-have-been-trying-to-get-them-to-correct-it-for-12-years?hl=en"
+   },
+   {
+    "title": "Support Options for Geocoding API",
+    "url": "https://developers.google.com/maps/documentation/geocoding/support"
+   },
+   {
+    "title": "Three words to tell US public safety teams exactly where ...",
+    "url": "https://what3words.com/news/emergency/three-words-to-tell-us-public-safety-teams-exactly-where-you-are"
+   },
+   {
+    "title": "Our address shows in the wrong location in Google Maps ...",
+    "url": "https://support.google.com/maps/thread/396858752/our-address-shows-in-the-wrong-location-in-google-maps-despite-submitting-multiple-corrections?hl=en"
+   },
+   {
+    "title": "Civil War at Fort Mason - Golden Gate",
+    "url": "https://www.nps.gov/goga/learn/historyculture/civil-war-at-fort-mason.htm"
+   },
+   {
+    "title": "San Francisco's Fort Mason military housing history",
+    "url": "https://www.facebook.com/groups/SFbayareastreetphotograpy/posts/10161897967145746/"
+   },
+   {
+    "title": "Details - Fort Mason, Site of - Atlas Number 5319011275",
+    "url": "https://atlas.thc.texas.gov/Details/5319011275"
+   },
+   {
+    "title": "Site of Fort Mason",
+    "url": "https://www.hmdb.org/m.asp?m=29972"
+   },
+   {
+    "title": "Expanded Service | National Postal Museum",
+    "url": "https://postalmuseum.si.edu/exhibition/mail-call-the-mail-piece/expanded-service"
+   },
+   {
+    "title": "Post Office Reports of Site Locations, 1837\u20131950",
+    "url": "https://www.archives.gov/research/post-offices/locations-1837-1950.html"
+   },
+   {
+    "title": "WEB - Enterprise Addressing System (EAS) - Confluence",
+    "url": "https://ccsfdt.atlassian.net/wiki/spaces/EAS/pages/425328933/WEB"
+   },
+   {
+    "title": "Welcome - Enterprise Addressing System - Confluence",
+    "url": "https://sfgovdt.jira.com/wiki/spaces/MAD/overview"
+   },
+   {
+    "title": "San Francisco Addresses - Enterprise Addressing System",
+    "url": "https://data.sf.gov/Geographic-Locations-and-Boundaries/San-Francisco-Addresses-Enterprise-Addressing-Syst/3mea-di5p"
+   },
+   {
+    "title": "Enterprise Addressing System (EAS) - Enterprise Addressing ...",
+    "url": "https://ccsfdt.atlassian.net/wiki/spaces/EAS/overview?homepageId=179994747"
+   },
+   {
+    "title": "San Francisco Addresses with Units - Enterprise Addressing System",
+    "url": "https://data.sf.gov/Geographic-Locations-and-Boundaries/San-Francisco-Addresses-with-Units-Enterprise-Addr/ramy-di5m"
+   },
+   {
+    "title": "3 Years of Enterprise Address System (EAS) at the City and ...",
+    "url": "https://www.fargeo.com/3-years-of-enterprise-address-system-eas-in-san-francisco/"
+   },
+   {
+    "title": "Fort Mason | Access California",
+    "url": "https://accessca.org/access-california/explore/explore-detail-view/?site_id=520"
+   },
+   {
+    "title": "1 - Headquarters",
+    "url": "https://www.nps.gov/places/000/1-headquarters.htm"
+   },
+   {
+    "title": "National Park Service Golden Gate ...",
+    "url": "https://www.visitmarin.org/site/assets/files/1086/ggnrashort_form.pdf"
+   },
+   {
+    "title": "Golden Gate - Fort Mason National Recreation Area - ICOAT",
+    "url": "https://icoat.de/pocketmaps/nps/park/nps-goga-foma?srsltid=AU7gw4XnOaWjvjp7MdrN35gA8diRl4HrfyAcLWEqvMD5fawtZ8okZVKG"
+   },
+   {
+    "title": "Fort Mason Store House, Building D",
+    "url": "https://www.parksconservancy.org/location/fort-mason-store-house-building-d"
+   },
+   {
+    "title": "Golden Gate National Recreation Area - San Francisco",
+    "url": "https://www.mapquest.com/us/california/golden-gate-national-recreation-area-373498900"
+   },
+   {
+    "title": "ZIP Code\u2122 Lookup",
+    "url": "https://tools.usps.com/zip-code-lookup.htm"
+   },
+   {
+    "title": "STEINER STREET",
+    "url": "https://tools.usps.com/locations/details/1383497"
+   },
+   {
+    "title": "94123 ZIP Code Map, San Francisco, CA",
+    "url": "https://www.randymajors.org/customgmap?cities=show&labels=show&title=San+Francisco%2C+CA&zipboundary=show&zips=94123"
+   },
+   {
+    "title": "AIRPORT MAIL CENTER",
+    "url": "https://tools.usps.com/locations/details/1440666"
+   },
+   {
+    "title": "ZIP Code 94123 in San Francisco CA",
+    "url": "https://greatdata.com/94123"
+   },
+   {
+    "title": "USA ZIP Code Areas - ArcGIS Hub",
+    "url": "https://hub.arcgis.com/maps/esri::usa-zip-code-areas/about"
+   },
+   {
+    "title": "Usps Office San Francisco, CA 94123",
+    "url": "https://www.yelp.com/search?find_desc=usps+office&find_loc=San+Francisco%2C+CA+94123"
+   },
+   {
+    "title": "San Francisco ZIP Codes | DataSF",
+    "url": "https://data.sf.gov/-/San-Francisco-ZIP-Codes/srq6-hmpi"
+   },
+   {
+    "title": "FOX PLAZA",
+    "url": "https://tools.usps.com/locations/details/1363945"
+   },
+   {
+    "title": "94123, CA Zip Code Map",
+    "url": "https://www.mapquest.com/us/california/94123-ca-51290266"
+   }
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+name: Root-cause or fix report
+description: You traced a wrong answer to its source, or got a fix accepted somewhere.
+title: "[Fix] <system>: <what changed>"
+labels: [root-cause]
+body:
+  - type: input
+    id: system
+    attributes: {label: "System or data source", placeholder: "e.g. OpenStreetMap, SF EAS, Apple Maps"}
+    validations: {required: true}
+  - type: textarea
+    id: finding
+    attributes: {label: "Finding or fix", description: "What did you prove or change? How can someone else re-run it?"}
+    validations: {required: true}
+  - type: textarea
+    id: ai
+    attributes: {label: "AI use", description: "Which tools or agents helped, and how?"}

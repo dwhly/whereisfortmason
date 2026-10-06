@@ -1,0 +1,838 @@
+{
+ "generated": "2026-10-05T21:28:07.779067Z",
+ "rows": [
+  {
+   "resident_address": "2 Fort Mason",
+   "osm_name": "Quarters 2",
+   "osm": "way/288387363",
+   "lat": 37.8065695,
+   "lon": -122.427114,
+   "city_eas_address": "2 FRANKLIN ST",
+   "city_eas_distance_m": 5,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "2 FRANKLIN ST, SAN FRANCISCO, CA, 94102",
+    "2 FRANKLIN ST, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": [
+    "2 FRANKLIN ST, SAN FRANCISCO, CA, 94102 (3.6 km away)"
+   ]
+  },
+  {
+   "resident_address": "3 Fort Mason",
+   "osm_name": "Haskell House",
+   "osm": "way/288387358",
+   "lat": 37.8070525,
+   "lon": -122.4273387,
+   "city_eas_address": "3 FRANKLIN ST",
+   "city_eas_distance_m": 2,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "3 FRANKLIN ST, SAN FRANCISCO, CA, 94102",
+    "3 FRANKLIN ST, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": [
+    "3 FRANKLIN ST, SAN FRANCISCO, CA, 94102 (3.7 km away)"
+   ]
+  },
+  {
+   "resident_address": "4 Fort Mason",
+   "osm_name": "Quarters 4N and 4S",
+   "osm": "way/288387365",
+   "lat": 37.8073626,
+   "lon": -122.4274487,
+   "city_eas_address": "4 FRANKLIN ST",
+   "city_eas_distance_m": 3,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "4 FRANKLIN ST, SAN FRANCISCO, CA, 94102",
+    "4 FRANKLIN ST, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": [
+    "4 FRANKLIN ST, SAN FRANCISCO, CA, 94102 (3.7 km away)"
+   ]
+  },
+  {
+   "resident_address": "9 Fort Mason",
+   "osm_name": "Building 9",
+   "osm": "way/288387374",
+   "lat": 37.8055161,
+   "lon": -122.4258526,
+   "city_eas_address": "9 MACARTHUR AVE",
+   "city_eas_distance_m": 0,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "9 MACARTHUR AVE, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "32 Fort Mason",
+   "osm_name": "Building 32",
+   "osm": "way/288387406",
+   "lat": 37.8048,
+   "lon": -122.4263126,
+   "city_eas_address": "32 MACARTHUR AVE",
+   "city_eas_distance_m": 1,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "32 MACARTHUR AVE, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "33 Fort Mason",
+   "osm_name": "Building 33",
+   "osm": "way/288387420",
+   "lat": 37.8043769,
+   "lon": -122.4259416,
+   "city_eas_address": "33 MACARTHUR AVE",
+   "city_eas_distance_m": 1,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "33 MACARTHUR AVE, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "34 Fort Mason",
+   "osm_name": "Building 34",
+   "osm": "way/288387414",
+   "lat": 37.8046714,
+   "lon": -122.4259343,
+   "city_eas_address": "34 MACARTHUR AVE",
+   "city_eas_distance_m": 2,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "34 MACARTHUR AVE, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "35 Fort Mason",
+   "osm_name": "Building 35",
+   "osm": "way/288387416",
+   "lat": 37.8050351,
+   "lon": -122.4260621,
+   "city_eas_address": "35 MACARTHUR AVE",
+   "city_eas_distance_m": 2,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "35 MACARTHUR AVE, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "36 Fort Mason",
+   "osm_name": "Building 36",
+   "osm": "way/288387410",
+   "lat": 37.8052287,
+   "lon": -122.426429,
+   "city_eas_address": "36 MACARTHUR AVE",
+   "city_eas_distance_m": 2,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "36 MACARTHUR AVE, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "37 Fort Mason",
+   "osm_name": "Building 37",
+   "osm": "way/288387372",
+   "lat": 37.8049552,
+   "lon": -122.4266463,
+   "city_eas_address": "37 MACARTHUR AVE",
+   "city_eas_distance_m": 2,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "37 MACARTHUR AVE, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "38 Fort Mason",
+   "osm_name": "Building 38",
+   "osm": "way/288387373",
+   "lat": 37.804592,
+   "lon": -122.4265704,
+   "city_eas_address": "38 MACARTHUR AVE",
+   "city_eas_distance_m": 2,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "38 MACARTHUR AVE, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "39 Fort Mason",
+   "osm_name": "Building 39",
+   "osm": "way/288387418",
+   "lat": 37.8043183,
+   "lon": -122.4263969,
+   "city_eas_address": "39 MACARTHUR AVE",
+   "city_eas_distance_m": 1,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "39 MACARTHUR AVE, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "41 Fort Mason",
+   "osm_name": "",
+   "osm": "way/288387377",
+   "lat": 37.804271,
+   "lon": -122.4271297,
+   "city_eas_address": null,
+   "city_eas_distance_m": 63,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "42 Fort Mason",
+   "osm_name": "",
+   "osm": "way/288387375",
+   "lat": 37.8044872,
+   "lon": -122.4272882,
+   "city_eas_address": null,
+   "city_eas_distance_m": 67,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "43 Fort Mason",
+   "osm_name": "",
+   "osm": "way/288387381",
+   "lat": 37.8046933,
+   "lon": -122.4273969,
+   "city_eas_address": null,
+   "city_eas_distance_m": 74,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "44 Fort Mason",
+   "osm_name": "",
+   "osm": "way/288387380",
+   "lat": 37.8049044,
+   "lon": -122.4275469,
+   "city_eas_address": null,
+   "city_eas_distance_m": 82,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "46 Fort Mason",
+   "osm_name": "",
+   "osm": "way/288387384",
+   "lat": 37.8048294,
+   "lon": -122.4280686,
+   "city_eas_address": null,
+   "city_eas_distance_m": 75,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "47 Fort Mason",
+   "osm_name": "",
+   "osm": "way/288387383",
+   "lat": 37.8045968,
+   "lon": -122.4281382,
+   "city_eas_address": null,
+   "city_eas_distance_m": 66,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "48 Fort Mason",
+   "osm_name": "",
+   "osm": "way/288387379",
+   "lat": 37.8043734,
+   "lon": -122.4281632,
+   "city_eas_address": null,
+   "city_eas_distance_m": 59,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "49 Fort Mason",
+   "osm_name": "",
+   "osm": "way/288387378",
+   "lat": 37.804166,
+   "lon": -122.4283155,
+   "city_eas_address": null,
+   "city_eas_distance_m": 51,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "101 Fort Mason",
+   "osm_name": "Golden Gate National Recreation Area - Cultural Resources",
+   "osm": "way/288387360",
+   "lat": 37.8046382,
+   "lon": -122.4288861,
+   "city_eas_address": "101 MACARTHUR AVE",
+   "city_eas_distance_m": 8,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "101 MACARTHUR AVE, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "102 Fort Mason",
+   "osm_name": "San Francisco Conservation Corps",
+   "osm": "node/3360885250",
+   "lat": 37.8043401,
+   "lon": -122.4289423,
+   "city_eas_address": "102 MACARTHUR AVE",
+   "city_eas_distance_m": 10,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "102 MACARTHUR AVE, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "102 Fort Mason",
+   "osm_name": "Building 102",
+   "osm": "way/288387386",
+   "lat": 37.8043482,
+   "lon": -122.4288432,
+   "city_eas_address": "102 MACARTHUR AVE",
+   "city_eas_distance_m": 3,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "102 MACARTHUR AVE, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": []
+  },
+  {
+   "resident_address": "201 Fort Mason",
+   "osm_name": "William H. Whelan Building",
+   "osm": "way/288387357",
+   "lat": 37.8055495,
+   "lon": -122.4281725,
+   "city_eas_address": "201 MACARTHUR AVE",
+   "city_eas_distance_m": 7,
+   "census_fort_mason_matches": 0,
+   "census_city_address_matches": [
+    "201 MACARTHUR AVE, SAN FRANCISCO, CA, 94123"
+   ],
+   "city_address_also_exists_elsewhere": []
+  }
+ ],
+ "eas_points": [
+  {
+   "address": "39 MACARTHUR AVE",
+   "address_number": "39",
+   "street_name": "MACARTHUR",
+   "street_type": "AVE",
+   "zip_code": "94123",
+   "latitude": "37.80432050553252",
+   "longitude": "-122.42639114828204",
+   "parcel_number": "0409002",
+   "eas_baseid": "488249"
+  },
+  {
+   "address": "231 FRANKLIN ST",
+   "address_number": "231",
+   "street_name": "FRANKLIN",
+   "street_type": "ST",
+   "zip_code": "94123",
+   "latitude": "37.80606378787137",
+   "longitude": "-122.42757354849937",
+   "parcel_number": "0409002",
+   "eas_baseid": "488230"
+  },
+  {
+   "address": "235 FRANKLIN ST",
+   "address_number": "235",
+   "street_name": "FRANKLIN",
+   "street_type": "ST",
+   "zip_code": "94123",
+   "latitude": "37.80657662932096",
+   "longitude": "-122.42775593871562",
+   "parcel_number": "0409002",
+   "eas_baseid": "488233"
+  },
+  {
+   "address": "232 FRANKLIN ST",
+   "address_number": "232",
+   "street_name": "FRANKLIN",
+   "street_type": "ST",
+   "zip_code": "94123",
+   "latitude": "37.80619305815892",
+   "longitude": "-122.4276097583218",
+   "parcel_number": "0409002",
+   "eas_baseid": "488231"
+  },
+  {
+   "address": "9 MACARTHUR AVE",
+   "address_number": "9",
+   "street_name": "MACARTHUR",
+   "street_type": "AVE",
+   "zip_code": "94123",
+   "latitude": "37.805513566035145",
+   "longitude": "-122.42585189836748",
+   "parcel_number": "0409002",
+   "eas_baseid": "488250"
+  },
+  {
+   "address": "239 FRANKLIN ST",
+   "address_number": "239",
+   "street_name": "FRANKLIN",
+   "street_type": "ST",
+   "zip_code": "94123",
+   "latitude": "37.806919934416456",
+   "longitude": "-122.42793296450742",
+   "parcel_number": "0409002",
+   "eas_baseid": "488235"
+  },
+  {
+   "address": "34 MACARTHUR AVE",
+   "address_number": "34",
+   "street_name": "MACARTHUR",
+   "street_type": "AVE",
+   "zip_code": "94123",
+   "latitude": "37.8046786557048",
+   "longitude": "-122.42591103287266",
+   "parcel_number": "0409002",
+   "eas_baseid": "488244"
+  },
+  {
+   "address": "112 MACARTHUR AVE",
+   "address_number": "112",
+   "street_name": "MACARTHUR",
+   "street_type": "AVE",
+   "zip_code": "94123",
+   "latitude": "37.804652732516146",
+   "longitude": "-122.4294750648869",
+   "parcel_number": "0409002",
+   "eas_baseid": "488238"
+  },
+  {
+   "address": "36 MACARTHUR AVE",
+   "address_number": "36",
+   "street_name": "MACARTHUR",
+   "street_type": "AVE",
+   "zip_code": "94123",
+   "latitude": "37.80524660626298",
+   "longitude": "-122.42643138141707",
+   "parcel_number": "0409002",
+   "eas_baseid": "488246"
+  },
+  {
+   "address": "204 POPE RD",
+   "address_number": "204",
+   "street_name": "POPE",
+   "street_type": "RD",
+   "zip_code": "94123",
+   "latitude": "37.80588665281778",
+   "longitude": "-122.42810876643443",
+   "parcel_number": "0409002",
+   "eas_baseid": "488252"
+  },
+  {
+   "address": "2 FRANKLIN ST",
+   "address_number": "2",
+   "street_name": "FRANKLIN",
+   "street_type": "ST",
+   "zip_code": "94123",
+   "latitude": "37.80661795316645",
+   "longitude": "-122.42710684413669",
+   "parcel_number": "0409002",
+   "eas_baseid": "488225"
+  },
+  {
+   "address": "102 MACARTHUR AVE",
+   "address_number": "102",
+   "street_name": "MACARTHUR",
+   "street_type": "AVE",
+   "zip_code": "94123",
+   "latitude": "37.80437098278968",
+   "longitude": "-122.42883648834429",
+   "parcel_number": "0409002",
+   "eas_baseid": "488240"
+  },
+  {
+   "address": "240 FUNSTON RD",
+   "address_number": "240",
+   "street_name": "FUNSTON",
+   "street_type": "RD",
+   "zip_code": "94123",
+   "latitude": "37.8070778118416",
+   "longitude": "-122.42851366276398",
+   "parcel_number": "0409002",
+   "eas_baseid": "488236"
+  },
+  {
+   "address": "33 MACARTHUR AVE",
+   "address_number": "33",
+   "street_name": "MACARTHUR",
+   "street_type": "AVE",
+   "zip_code": "94123",
+   "latitude": "37.80437843546821",
+   "longitude": "-122.4259469498713",
+   "parcel_number": "0409002",
+   "eas_baseid": "488243"
+  },
+  {
+   "address": "37 MACARTHUR AVE",
+   "address_number": "37",
+   "street_name": "MACARTHUR",
+   "street_type": "AVE",
+   "zip_code": "94123",
+   "latitude": "37.80496263152991",
+   "longitude": "-122.42662181826555",
+   "parcel_number": "0409002",
+   "eas_baseid": "488247"
+  },
+  {
+   "address": "32 MACARTHUR AVE",
+   "address_number": "32",
+   "street_name": "MACARTHUR",
+   "street_type": "AVE",
+   "zip_code": "94123",
+   "latitude": "37.80480658000119",
+   "longitude": "-122.42629844516398",
+   "parcel_number": "0409002",
+   "eas_baseid": "488242"
+  },
+  {
+   "address": "238 FRANKLIN ST",
+   "address_number": "238",
+   "street_name": "FRANKLIN",
+   "street_type": "ST",
+   "zip_code": "94123",
+   "latitude": "37.806786427069014",
+   "longitude": "-122.42784847492761",
+   "parcel_number": "0409002",
+   "eas_baseid": "488234"
+  },
+  {
+   "address": "101 MACARTHUR AVE",
+   "address_number": "101",
+   "street_name": "MACARTHUR",
+   "street_type": "AVE",
+   "zip_code": "94123",
+   "latitude": "37.80471136030227",
+   "longitude": "-122.428906729409",
+   "parcel_number": "0409002",
+   "eas_baseid": "488239"
+  },
+  {
+   "address": "201 MACARTHUR AVE",
+   "address_number": "201",
+   "street_name": "MACARTHUR",
+   "street_type": "AVE",
+   "zip_code": "94123",
+   "latitude": "37.80556985783034",
+   "longitude": "-122.42809628066048",
+   "parcel_number": "0409002",
+   "eas_baseid": "488241"
+  },
+  {
+   "address": "241 FUNSTON RD",
+   "address_number": "241",
+   "street_name": "FUNSTON",
+   "street_type": "RD",
+   "zip_code": "94123",
+   "latitude": "37.807145624860105",
+   "longitude": "-122.42792894119579",
+   "parcel_number": "0409002",
+   "eas_baseid": "488237"
+  },
+  {
+   "address": "38 MACARTHUR AVE",
+   "address_number": "38",
+   "street_name": "MACARTHUR",
+   "street_type": "AVE",
+   "zip_code": "94123",
+   "latitude": "37.80458858851707",
+   "longitude": "-122.42654269310387",
+   "parcel_number": "0409002",
+   "eas_baseid": "488248"
+  },
+  {
+   "address": "4 FRANKLIN ST",
+   "address_number": "4",
+   "street_name": "FRANKLIN",
+   "street_type": "ST",
+   "zip_code": "94123",
+   "latitude": "37.80735859971702",
+   "longitude": "-122.42741261596298",
+   "parcel_number": "0409002",
+   "eas_baseid": "488227"
+  },
+  {
+   "address": "3 FRANKLIN ST",
+   "address_number": "3",
+   "street_name": "FRANKLIN",
+   "street_type": "ST",
+   "zip_code": "94123",
+   "latitude": "37.80703966699119",
+   "longitude": "-122.42732946747807",
+   "parcel_number": "0409002",
+   "eas_baseid": "488226"
+  },
+  {
+   "address": "35 MACARTHUR AVE",
+   "address_number": "35",
+   "street_name": "MACARTHUR",
+   "street_type": "AVE",
+   "zip_code": "94123",
+   "latitude": "37.80504316178912",
+   "longitude": "-122.4260478255303",
+   "parcel_number": "0409002",
+   "eas_baseid": "488245"
+  },
+  {
+   "address": "230 FRANKLIN ST",
+   "address_number": "230",
+   "street_name": "FRANKLIN",
+   "street_type": "ST",
+   "zip_code": "94123",
+   "latitude": "37.80585292847361",
+   "longitude": "-122.42742334479397",
+   "parcel_number": "0409002",
+   "eas_baseid": "488229"
+  },
+  {
+   "address": "234 FRANKLIN ST",
+   "address_number": "234",
+   "street_name": "FRANKLIN",
+   "street_type": "ST",
+   "zip_code": "94123",
+   "latitude": "37.80641239329381",
+   "longitude": "-122.42769290680675",
+   "parcel_number": "0409002",
+   "eas_baseid": "488232"
+  },
+  {
+   "address": "7 FRANKLIN ST",
+   "address_number": "7",
+   "street_name": "FRANKLIN",
+   "street_type": "ST",
+   "zip_code": "94123",
+   "latitude": "37.80622378630912",
+   "longitude": "-122.42692445392044",
+   "parcel_number": "0409002",
+   "eas_baseid": "488228"
+  },
+  {
+   "address": "1 MACARTHUR AVE",
+   "address_number": "1",
+   "street_name": "MACARTHUR",
+   "street_type": "AVE",
+   "zip_code": "94123",
+   "latitude": "37.80605078196317",
+   "longitude": "-122.42641248005499",
+   "parcel_number": "0409002",
+   "eas_baseid": "488251"
+  }
+ ],
+ "osm_points": [
+  {
+   "number": "102",
+   "lat": 37.8043401,
+   "lon": -122.4289423,
+   "name": "San Francisco Conservation Corps",
+   "building": "",
+   "osm": "node/3360885250"
+  },
+  {
+   "number": "201",
+   "lat": 37.8055495,
+   "lon": -122.4281725,
+   "name": "William H. Whelan Building",
+   "building": "yes",
+   "osm": "way/288387357"
+  },
+  {
+   "number": "3",
+   "lat": 37.8070525,
+   "lon": -122.4273387,
+   "name": "Haskell House",
+   "building": "house",
+   "osm": "way/288387358"
+  },
+  {
+   "number": "101",
+   "lat": 37.8046382,
+   "lon": -122.4288861,
+   "name": "Golden Gate National Recreation Area - Cultural Resources",
+   "building": "yes",
+   "osm": "way/288387360"
+  },
+  {
+   "number": "2",
+   "lat": 37.8065695,
+   "lon": -122.427114,
+   "name": "Quarters 2",
+   "building": "house",
+   "osm": "way/288387363"
+  },
+  {
+   "number": "4",
+   "lat": 37.8073626,
+   "lon": -122.4274487,
+   "name": "Quarters 4N and 4S",
+   "building": "house",
+   "osm": "way/288387365"
+  },
+  {
+   "number": "37",
+   "lat": 37.8049552,
+   "lon": -122.4266463,
+   "name": "Building 37",
+   "building": "commercial",
+   "osm": "way/288387372"
+  },
+  {
+   "number": "38",
+   "lat": 37.804592,
+   "lon": -122.4265704,
+   "name": "Building 38",
+   "building": "residential",
+   "osm": "way/288387373"
+  },
+  {
+   "number": "9",
+   "lat": 37.8055161,
+   "lon": -122.4258526,
+   "name": "Building 9",
+   "building": "office",
+   "osm": "way/288387374"
+  },
+  {
+   "number": "42",
+   "lat": 37.8044872,
+   "lon": -122.4272882,
+   "name": "",
+   "building": "yes",
+   "osm": "way/288387375"
+  },
+  {
+   "number": "41",
+   "lat": 37.804271,
+   "lon": -122.4271297,
+   "name": "",
+   "building": "yes",
+   "osm": "way/288387377"
+  },
+  {
+   "number": "49",
+   "lat": 37.804166,
+   "lon": -122.4283155,
+   "name": "",
+   "building": "yes",
+   "osm": "way/288387378"
+  },
+  {
+   "number": "48",
+   "lat": 37.8043734,
+   "lon": -122.4281632,
+   "name": "",
+   "building": "yes",
+   "osm": "way/288387379"
+  },
+  {
+   "number": "44",
+   "lat": 37.8049044,
+   "lon": -122.4275469,
+   "name": "",
+   "building": "residential",
+   "osm": "way/288387380"
+  },
+  {
+   "number": "43",
+   "lat": 37.8046933,
+   "lon": -122.4273969,
+   "name": "",
+   "building": "yes",
+   "osm": "way/288387381"
+  },
+  {
+   "number": "47",
+   "lat": 37.8045968,
+   "lon": -122.4281382,
+   "name": "",
+   "building": "yes",
+   "osm": "way/288387383"
+  },
+  {
+   "number": "46",
+   "lat": 37.8048294,
+   "lon": -122.4280686,
+   "name": "",
+   "building": "yes",
+   "osm": "way/288387384"
+  },
+  {
+   "number": "102",
+   "lat": 37.8043482,
+   "lon": -122.4288432,
+   "name": "Building 102",
+   "building": "yes",
+   "osm": "way/288387386"
+  },
+  {
+   "number": "32",
+   "lat": 37.8048,
+   "lon": -122.4263126,
+   "name": "Building 32",
+   "building": "commercial",
+   "osm": "way/288387406"
+  },
+  {
+   "number": "36",
+   "lat": 37.8052287,
+   "lon": -122.426429,
+   "name": "Building 36",
+   "building": "residential",
+   "osm": "way/288387410"
+  },
+  {
+   "number": "34",
+   "lat": 37.8046714,
+   "lon": -122.4259343,
+   "name": "Building 34",
+   "building": "commercial",
+   "osm": "way/288387414"
+  },
+  {
+   "number": "35",
+   "lat": 37.8050351,
+   "lon": -122.4260621,
+   "name": "Building 35",
+   "building": "commercial",
+   "osm": "way/288387416"
+  },
+  {
+   "number": "39",
+   "lat": 37.8043183,
+   "lon": -122.4263969,
+   "name": "Building 39",
+   "building": "residential",
+   "osm": "way/288387418"
+  },
+  {
+   "number": "33",
+   "lat": 37.8043769,
+   "lon": -122.4259416,
+   "name": "Building 33",
+   "building": "school",
+   "osm": "way/288387420"
+  }
+ ]
+}

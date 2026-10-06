@@ -1,0 +1,25 @@
+name: Report a stranded address
+description: An address that map systems or delivery apps get wrong (in Fort Mason or anywhere in the Bay Area).
+title: "[Stranded] <address>"
+labels: [stranded-address]
+body:
+  - type: markdown
+    attributes:
+      value: "Please don't include names, phone numbers or photos of people."
+  - type: input
+    id: address
+    attributes: {label: "The address, as written on mail", placeholder: "e.g. 4 Fort Mason, San Francisco, CA 94123"}
+    validations: {required: true}
+  - type: dropdown
+    id: systems
+    attributes:
+      label: Which systems get it wrong?
+      multiple: true
+      options: [Apple Maps, Google Maps, Waze, Amazon, UPS, FedEx, USPS, DoorDash, Uber / Uber Eats, Instacart, Lyft, Other]
+  - type: textarea
+    id: what
+    attributes: {label: "What happens?", description: "Where does the pin land, or where do drivers go? Roughly how often?"}
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes: {label: "Evidence", description: "Screenshots (crop out personal details), dates, app versions."}

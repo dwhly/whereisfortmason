@@ -1,0 +1,25 @@
+address,building,lat,lon,source,verified_by_resident
+2 Fort Mason,Quarters 2,37.8065695,-122.427114,OpenStreetMap way/288387363,no
+3 Fort Mason,Haskell House,37.8070525,-122.4273387,OpenStreetMap way/288387358,no
+4 Fort Mason,Quarters 4N and 4S,37.8073626,-122.4274487,OpenStreetMap way/288387365,no
+9 Fort Mason,Building 9,37.8055161,-122.4258526,OpenStreetMap way/288387374,no
+32 Fort Mason,Building 32,37.8048,-122.4263126,OpenStreetMap way/288387406,no
+33 Fort Mason,Building 33,37.8043769,-122.4259416,OpenStreetMap way/288387420,no
+34 Fort Mason,Building 34,37.8046714,-122.4259343,OpenStreetMap way/288387414,no
+35 Fort Mason,Building 35,37.8050351,-122.4260621,OpenStreetMap way/288387416,no
+36 Fort Mason,Building 36,37.8052287,-122.426429,OpenStreetMap way/288387410,no
+37 Fort Mason,Building 37,37.8049552,-122.4266463,OpenStreetMap way/288387372,no
+38 Fort Mason,Building 38,37.804592,-122.4265704,OpenStreetMap way/288387373,no
+39 Fort Mason,Building 39,37.8043183,-122.4263969,OpenStreetMap way/288387418,no
+41 Fort Mason,,37.804271,-122.4271297,OpenStreetMap way/288387377,no
+42 Fort Mason,,37.8044872,-122.4272882,OpenStreetMap way/288387375,no
+43 Fort Mason,,37.8046933,-122.4273969,OpenStreetMap way/288387381,no
+44 Fort Mason,,37.8049044,-122.4275469,OpenStreetMap way/288387380,no
+46 Fort Mason,,37.8048294,-122.4280686,OpenStreetMap way/288387384,no
+47 Fort Mason,,37.8045968,-122.4281382,OpenStreetMap way/288387383,no
+48 Fort Mason,,37.8043734,-122.4281632,OpenStreetMap way/288387379,no
+49 Fort Mason,,37.804166,-122.4283155,OpenStreetMap way/288387378,no
+101 Fort Mason,Golden Gate National Recreation Area - Cultural Resources,37.8046382,-122.4288861,OpenStreetMap way/288387360,no
+102 Fort Mason,San Francisco Conservation Corps,37.8043401,-122.4289423,OpenStreetMap node/3360885250,no
+102 Fort Mason,Building 102,37.8043482,-122.4288432,OpenStreetMap way/288387386,no
+201 Fort Mason,William H. Whelan Building,37.8055495,-122.4281725,OpenStreetMap way/288387357,no

@@ -1,0 +1,49 @@
+name: Scoreboard and site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 14 * * 1"   # Mondays 14:17 UTC: weekly re-check of every map system
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Refresh scoreboard and lookup data (scheduled or manual runs)
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: |
+          python3 scripts/scoreboard.py
+          python3 scripts/build_lookup.py
+      - name: Build site
+        run: python3 scripts/build_site.py
+      - name: Commit refreshed data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "scoreboard-bot"
+          git config user.email "scoreboard-bot@users.noreply.github.com"
+          git add -A SCOREBOARD.md data/scoreboard data/lookup site
+          git diff --cached --quiet || (git commit -m "Weekly scoreboard refresh" && git push)
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: site}
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: {name: github-pages, url: "${{ steps.deployment.outputs.page_url }}"}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

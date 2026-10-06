@@ -1,0 +1,308 @@
+area,address_people_use,osm_name,lat,lon,class,official_address_here,nearest_official_m,official_twin_elsewhere,osm
+treasure-island,1245 Northpoint Drive,,37.829814,-122.372851,MATCH,1245 NORTHPOINT DR,11,,node/1249382951
+treasure-island,1246 Gateview Court,,37.830243,-122.373555,NO_OFFICIAL,,37,,node/1249382959
+treasure-island,1242 Northpoint Drive,,37.830514,-122.372833,MATCH,1242 NORTHPOINT DR,14,,node/1249382961
+treasure-island,1244 Northpoint Drive,,37.830087,-122.373019,MATCH,1244 NORTHPOINT DR,15,,node/1249382977
+treasure-island,1232 Northpoint Drive,,37.830512,-122.374473,MATCH,1232 NORTHPOINT DR,24,,node/1249382980
+treasure-island,1240 Northpoint Drive,,37.831074,-122.373019,MATCH,1240 NORTHPOINT DR,8,,node/1249382981
+treasure-island,1227 Northpoint Drive,,37.830582,-122.374788,MATCH,1227 NORTHPOINT DR,7,,node/1249382992
+treasure-island,1241 Northpoint Drive,,37.830546,-122.37254,MATCH,1241 NORTHPOINT DR,36,,node/1249382996
+treasure-island,1248 Gateview Court,,37.830214,-122.373927,NO_OFFICIAL,,44,,node/1249382999
+treasure-island,1238 Northpoint Drive,,37.83146,-122.373445,MATCH,1238 NORTHPOINT DR,8,,node/1249383001
+treasure-island,1243 Northpoint Drive,,37.830084,-122.372619,MATCH,1243 NORTHPOINT DR,7,,node/1249383014
+treasure-island,1246 Gateview Court,,37.830486,-122.373455,NO_OFFICIAL,,46,,node/1249383016
+treasure-island,1237 Northpoint Drive,,37.831519,-122.372908,MATCH,1237 NORTHPOINT DR,14,,node/1249383018
+treasure-island,1245 Northpoint Drive,,37.829642,-122.372955,MATCH,1245 NORTHPOINT DR,12,,node/1249383035
+treasure-island,1232 Northpoint Drive,,37.830262,-122.374487,MATCH,1232 NORTHPOINT DR,6,,node/1249383040
+treasure-island,1242 Northpoint Drive,,37.830711,-122.3729,MATCH,1242 NORTHPOINT DR,13,,node/1249383057
+treasure-island,1244 Northpoint Drive,,37.829918,-122.373142,MATCH,1244 NORTHPOINT DR,18,,node/1249383067
+treasure-island,1234 Northpoint Drive,,37.830779,-122.37446,MATCH,1234 NORTHPOINT DR,6,,node/1249383071
+treasure-island,1239 Northpoint Drive,,37.830865,-122.372635,TWO_SYSTEMS,1241 NORTHPOINT DR,3,,node/1249383082
+treasure-island,1227 Northpoint Drive,,37.830766,-122.374793,MATCH,1227 NORTHPOINT DR,24,,node/1249383094
+treasure-island,1243 Northpoint Drive,,37.830297,-122.372454,MATCH,1243 NORTHPOINT DR,25,,node/1249383100
+treasure-island,1248 Gateview Court,,37.830389,-122.373852,NO_OFFICIAL,,52,,node/1249383102
+treasure-island,1238 Northpoint Drive,,37.831389,-122.373217,MATCH,1238 NORTHPOINT DR,28,,node/1249383104
+treasure-island,1245 Northpoint Drive,,37.82987,-122.372787,MATCH,1245 NORTHPOINT DR,18,,node/1249383120
+treasure-island,1225 Northpoint Drive,,37.830259,-122.374801,MATCH,1225 NORTHPOINT DR,8,,node/1249383121
+treasure-island,1242 Northpoint Drive,,37.830455,-122.372813,MATCH,1242 NORTHPOINT DR,20,,node/1249383122
+treasure-island,1244 Northpoint Drive,,37.830132,-122.372985,MATCH,1244 NORTHPOINT DR,19,,node/1249383140
+treasure-island,1232 Northpoint Drive,,37.830447,-122.374477,MATCH,1232 NORTHPOINT DR,22,,node/1249383142
+treasure-island,1239 Northpoint Drive,,37.831101,-122.372713,MATCH,1239 NORTHPOINT DR,17,,node/1249383143
+treasure-island,1234 Northpoint Drive,,37.830968,-122.37443,MATCH,1234 NORTHPOINT DR,27,,node/1249383159
+treasure-island,1241 Northpoint Drive,,37.830604,-122.372558,MATCH,1241 NORTHPOINT DR,29,,node/1249383162
+treasure-island,1248 Gateview Court,,37.830154,-122.373953,NO_OFFICIAL,,43,,node/1249383163
+treasure-island,1238 Northpoint Drive,,37.831465,-122.373536,MATCH,1238 NORTHPOINT DR,4,,node/1249383172
+treasure-island,1243 Northpoint Drive,,37.830147,-122.372596,MATCH,1243 NORTHPOINT DR,9,,node/1249383180
+treasure-island,1246 Gateview Court,,37.830078,-122.373641,NO_OFFICIAL,,40,,node/1249383186
+treasure-island,1237 Northpoint Drive,,37.831564,-122.372954,MATCH,1237 NORTHPOINT DR,8,,node/1249383188
+treasure-island,1245 Northpoint Drive,,37.829692,-122.372918,MATCH,1245 NORTHPOINT DR,6,,node/1249383197
+treasure-island,1232 Northpoint Drive,,37.830193,-122.374491,MATCH,1232 NORTHPOINT DR,9,,node/1249383206
+treasure-island,1240 Northpoint Drive,,37.830888,-122.372945,MATCH,1240 NORTHPOINT DR,29,,node/1249383208
+treasure-island,1234 Northpoint Drive,,37.830713,-122.374442,MATCH,1234 NORTHPOINT DR,2,,node/1249383213
+treasure-island,1239 Northpoint Drive,,37.830917,-122.372652,MATCH,1239 NORTHPOINT DR,7,,node/1249383224
+treasure-island,1227 Northpoint Drive,,37.830707,-122.374796,MATCH,1227 NORTHPOINT DR,18,,node/1249383232
+treasure-island,1241 Northpoint Drive,,37.830421,-122.372478,NO_OFFICIAL,,38,,node/1249383242
+treasure-island,1246 Gateview Court,,37.830311,-122.373546,NO_OFFICIAL,,41,,node/1249383244
+treasure-island,1238 Northpoint Drive,,37.831409,-122.373299,MATCH,1238 NORTHPOINT DR,20,,node/1249383246
+treasure-island,1245 Northpoint Drive,,37.829914,-122.372753,MATCH,1245 NORTHPOINT DR,24,,node/1249383259
+treasure-island,1225 Northpoint Drive,,37.830322,-122.374797,MATCH,1225 NORTHPOINT DR,15,,node/1249383261
+treasure-island,1240 Northpoint Drive,,37.831133,-122.373025,MATCH,1240 NORTHPOINT DR,5,,node/1249383263
+treasure-island,1232 Northpoint Drive,,37.830386,-122.374467,MATCH,1232 NORTHPOINT DR,15,,node/1249383277
+treasure-island,1239 Northpoint Drive,,37.831154,-122.372731,MATCH,1239 NORTHPOINT DR,11,,node/1249383279
+treasure-island,1234 Northpoint Drive,,37.830909,-122.374433,MATCH,1234 NORTHPOINT DR,20,,node/1249383283
+treasure-island,1241 Northpoint Drive,,37.830673,-122.37256,MATCH,1241 NORTHPOINT DR,22,,node/1249383290
+treasure-island,1248 Gateview Court,,37.830564,-122.373795,NO_OFFICIAL,,59,,node/1249383293
+treasure-island,1238 Northpoint Drive,,37.831483,-122.373613,MATCH,1238 NORTHPOINT DR,10,,node/1249383296
+treasure-island,1243 Northpoint Drive,,37.830199,-122.372557,MATCH,1243 NORTHPOINT DR,13,,node/1249383306
+treasure-island,1246 Gateview Court,,37.830131,-122.373619,NO_OFFICIAL,,38,,node/1249383308
+treasure-island,1242 Northpoint Drive,,37.830641,-122.372855,MATCH,1242 NORTHPOINT DR,9,,node/1249383311
+treasure-island,1244 Northpoint Drive,,37.829982,-122.373113,MATCH,1244 NORTHPOINT DR,12,,node/1249383320
+treasure-island,1225 Northpoint Drive,,37.830127,-122.374828,MATCH,1225 NORTHPOINT DR,7,,node/1249383322
+treasure-island,1240 Northpoint Drive,,37.83094,-122.372961,MATCH,1240 NORTHPOINT DR,24,,node/1249383324
+treasure-island,1234 Northpoint Drive,,37.830649,-122.374445,MATCH,1234 NORTHPOINT DR,9,,node/1249383335
+treasure-island,1239 Northpoint Drive,,37.830984,-122.372654,MATCH,1239 NORTHPOINT DR,14,,node/1249383338
+treasure-island,1248 Gateview Court,,37.830336,-122.37389,NO_OFFICIAL,,48,,node/1249383340
+treasure-island,1241 Northpoint Drive,,37.830478,-122.372496,NO_OFFICIAL,,42,,node/1249383353
+treasure-island,1246 Gateview Court,,37.830369,-122.373521,NO_OFFICIAL,,44,,node/1249383357
+treasure-island,1237 Northpoint Drive,,37.831411,-122.372812,MATCH,1237 NORTHPOINT DR,20,,node/1249383365
+treasure-island,1244 Northpoint Drive,,37.830194,-122.372961,MATCH,1244 NORTHPOINT DR,24,,node/1249383370
+treasure-island,1225 Northpoint Drive,,37.830387,-122.374815,MATCH,1225 NORTHPOINT DR,19,,node/1249383382
+treasure-island,1240 Northpoint Drive,,37.831197,-122.373045,MATCH,1240 NORTHPOINT DR,8,,node/1249383384
+treasure-island,1232 Northpoint Drive,,37.830326,-122.37447,MATCH,1232 NORTHPOINT DR,9,,node/1249383389
+treasure-island,1239 Northpoint Drive,,37.831229,-122.372734,MATCH,1239 NORTHPOINT DR,3,,node/1249383398
+treasure-island,1227 Northpoint Drive,,37.830902,-122.374773,MATCH,1227 NORTHPOINT DR,11,,node/1249383404
+treasure-island,1241 Northpoint Drive,,37.830734,-122.37258,MATCH,1241 NORTHPOINT DR,15,,node/1249383408
+treasure-island,1248 Gateview Court,,37.830514,-122.373817,NO_OFFICIAL,,59,,node/1249383410
+treasure-island,1237 Northpoint Drive,,37.83161,-122.37302,MATCH,1237 NORTHPOINT DR,7,,node/1249383416
+treasure-island,1245 Northpoint Drive,,37.829757,-122.372894,MATCH,1245 NORTHPOINT DR,5,,node/1249383426
+treasure-island,1246 Gateview Court,,37.830191,-122.373577,NO_OFFICIAL,,36,,node/1249383431
+treasure-island,1242 Northpoint Drive,,37.830587,-122.372837,MATCH,1242 NORTHPOINT DR,10,,node/1249383432
+treasure-island,1244 Northpoint Drive,,37.830031,-122.373077,MATCH,1244 NORTHPOINT DR,11,,node/1249383450
+treasure-island,1225 Northpoint Drive,,37.830186,-122.374825,MATCH,1225 NORTHPOINT DR,1,,node/1249383451
+treasure-island,1240 Northpoint Drive,,37.831013,-122.373,MATCH,1240 NORTHPOINT DR,15,,node/1249383452
+treasure-island,1227 Northpoint Drive,,37.830643,-122.374785,MATCH,1227 NORTHPOINT DR,12,,node/1249383454
+treasure-island,1239 Northpoint Drive,,37.831041,-122.372673,MATCH,1239 NORTHPOINT DR,20,,node/1249383462
+treasure-island,1248 Gateview Court,,37.830278,-122.373916,NO_OFFICIAL,,45,,node/1249383466
+treasure-island,1238 Northpoint Drive,,37.831443,-122.373371,MATCH,1238 NORTHPOINT DR,14,,node/1249383469
+treasure-island,1243 Northpoint Drive,,37.830029,-122.372662,MATCH,1243 NORTHPOINT DR,12,,node/1249383478
+treasure-island,1246 Gateview Court,,37.830423,-122.373481,NO_OFFICIAL,,46,,node/1249383482
+treasure-island,1237 Northpoint Drive,,37.83146,-122.372863,MATCH,1237 NORTHPOINT DR,21,,node/1249383485
+treasure-island,1244 Northpoint Drive,,37.830248,-122.37292,MATCH,1244 NORTHPOINT DR,31,,node/1249383496
+treasure-island,1225 Northpoint Drive,,37.830448,-122.374811,MATCH,1225 NORTHPOINT DR,12,,node/1249383497
+treasure-island,1242 Northpoint Drive,,37.830765,-122.372918,MATCH,1242 NORTHPOINT DR,18,,node/1249383500
+treasure-island,1244 Northpoint Drive,,37.829866,-122.373182,MATCH,1244 NORTHPOINT DR,23,,node/1249383516
+treasure-island,1234 Northpoint Drive,,37.830841,-122.374456,MATCH,1234 NORTHPOINT DR,13,,node/1249383517
+treasure-island,1239 Northpoint Drive,,37.831283,-122.372752,MATCH,1239 NORTHPOINT DR,5,,node/1249383518
+treasure-island,1227 Northpoint Drive,,37.830843,-122.374776,MATCH,1227 NORTHPOINT DR,17,,node/1249383535
+treasure-island,1243 Northpoint Drive,,37.830251,-122.372489,MATCH,1243 NORTHPOINT DR,19,,node/1249383537
+treasure-island,1248 Gateview Court,,37.830446,-122.373827,NO_OFFICIAL,,57,,node/1249383539
+treasure-island,1206 Mariner Drive,,37.82895,-122.374468,MATCH,1206 MARINER DR,23,,node/1249551143
+treasure-island,1212 Mariner Drive,,37.82898,-122.373164,MATCH,1212 MARINER DR,16,,node/1249551155
+treasure-island,1204 Mariner Drive,,37.829054,-122.375265,MATCH,1204 MARINER DR,7,,node/1249551157
+treasure-island,1221 Mariner Drive,,37.829208,-122.374208,MATCH,1221 MARINER DR,20,,node/1249551159
+treasure-island,1208 Mariner Drive,,37.828927,-122.373804,MATCH,1208 MARINER DR,26,,node/1249551165
+treasure-island,1223 Mariner Drive,,37.829186,-122.373566,MATCH,1223 MARINER DR,28,,node/1249551173
+treasure-island,1219 Mariner Drive,,37.829228,-122.374743,MATCH,1219 MARINER DR,9,,node/1249551177
+treasure-island,1212 Mariner Drive,,37.829032,-122.373005,MATCH,1212 MARINER DR,0,,node/1249551191
+treasure-island,1202 Mariner Drive,,37.8294,-122.375603,MATCH,1202 MARINER DR,8,,node/1249551195
+treasure-island,1219 Mariner Drive,,37.829217,-122.374494,MATCH,1219 MARINER DR,30,,node/1249551198
+treasure-island,1206 Mariner Drive,,37.828946,-122.374391,TWO_SYSTEMS,1208 MARINER DR,16,,node/1249551202
+treasure-island,1212 Mariner Drive,,37.828962,-122.373245,MATCH,1212 MARINER DR,23,,node/1249551207
+treasure-island,1212 Mariner Drive,,37.829051,-122.372845,MATCH,1212 MARINER DR,14,,node/1249551212
+treasure-island,1204 Mariner Drive,,37.829081,-122.375342,MATCH,1204 MARINER DR,7,,node/1249551213
+treasure-island,1221 Mariner Drive,,37.829204,-122.374128,MATCH,1221 MARINER DR,13,,node/1249551214
+treasure-island,1204 Mariner Drive,,37.828951,-122.374958,MATCH,1204 MARINER DR,9,,node/1249551215
+treasure-island,1208 Mariner Drive,,37.828931,-122.373886,MATCH,1208 MARINER DR,30,,node/1249551216
+treasure-island,1223 Mariner Drive,,37.829205,-122.373482,MATCH,1223 MARINER DR,21,,node/1249551219
+treasure-island,1204 Mariner Drive,,37.829015,-122.375097,MATCH,1204 MARINER DR,21,,node/1249551221
+treasure-island,1210 Mariner Drive,,37.828915,-122.373571,MATCH,1210 MARINER DR,6,,node/1249551223
+treasure-island,1202 Mariner Drive,,37.829279,-122.375526,MATCH,1202 MARINER DR,13,,node/1249551224
+treasure-island,1221 Mariner Drive,,37.829193,-122.373879,MATCH,1221 MARINER DR,10,,node/1249551226
+treasure-island,1208 Mariner Drive,,37.828943,-122.374134,MATCH,1208 MARINER DR,9,,node/1249551231
+treasure-island,1212 Mariner Drive,,37.829014,-122.373089,MATCH,1212 MARINER DR,8,,node/1249551238
+treasure-island,1223 Mariner Drive,,37.829256,-122.373253,MATCH,1223 MARINER DR,5,,node/1249551239
+treasure-island,1219 Mariner Drive,,37.829213,-122.374415,MATCH,1219 MARINER DR,37,,node/1249551248
+treasure-island,1204 Mariner Drive,,37.829044,-122.375179,MATCH,1204 MARINER DR,14,,node/1249551253
+treasure-island,1206 Mariner Drive,,37.82896,-122.374709,MATCH,1206 MARINER DR,15,,node/1249551261
+treasure-island,1210 Mariner Drive,,37.828911,-122.373661,MATCH,1210 MARINER DR,14,,node/1249551262
+treasure-island,1202 Mariner Drive,,37.829336,-122.375569,MATCH,1202 MARINER DR,8,,node/1249551263
+treasure-island,1221 Mariner Drive,,37.82919,-122.373801,MATCH,1221 MARINER DR,16,,node/1249551272
+treasure-island,1208 Mariner Drive,,37.828948,-122.374228,MATCH,1208 MARINER DR,6,,node/1249551273
+treasure-island,1223 Mariner Drive,,37.829274,-122.373172,MATCH,1223 MARINER DR,9,,node/1249551275
+treasure-island,1202 Mariner Drive,,37.829184,-122.375436,MATCH,1202 MARINER DR,20,,node/1249551285
+treasure-island,1208 Mariner Drive,,37.828925,-122.373978,MATCH,1208 MARINER DR,22,,node/1249551286
+treasure-island,1212 Mariner Drive,,37.829035,-122.372921,MATCH,1212 MARINER DR,7,,node/1249551287
+treasure-island,1223 Mariner Drive,,37.829205,-122.37341,MATCH,1223 MARINER DR,15,,node/1249551297
+treasure-island,1204 Mariner Drive,,37.828979,-122.375039,MATCH,1204 MARINER DR,16,,node/1249551298
+treasure-island,1219 Mariner Drive,,37.829231,-122.374579,MATCH,1219 MARINER DR,22,,node/1249551306
+treasure-island,1206 Mariner Drive,,37.828968,-122.37454,MATCH,1206 MARINER DR,29,,node/1249551308
+treasure-island,1210 Mariner Drive,,37.828932,-122.373487,MATCH,1210 MARINER DR,2,,node/1249551309
+treasure-island,1221 Mariner Drive,,37.829208,-122.373967,MATCH,1221 MARINER DR,3,,node/1249551319
+treasure-island,1206 Mariner Drive,,37.828963,-122.374787,MATCH,1206 MARINER DR,9,,node/1249551320
+treasure-island,1202 Mariner Drive,,37.829239,-122.375478,MATCH,1202 MARINER DR,19,,node/1249551326
+treasure-island,1208 Mariner Drive,,37.828929,-122.37406,MATCH,1208 MARINER DR,15,,node/1249551331
+treasure-island,1223 Mariner Drive,,37.829225,-122.373316,MATCH,1223 MARINER DR,8,,node/1249551336
+treasure-island,1206 Mariner Drive,,37.828972,-122.374625,MATCH,1206 MARINER DR,22,,node/1249551339
+treasure-island,1219 Mariner Drive,,37.829235,-122.374657,MATCH,1219 MARINER DR,16,,node/1249551346
+treasure-island,1210 Mariner Drive,,37.828935,-122.373409,MATCH,1210 MARINER DR,9,,node/1249551349
+treasure-island,1221 Mariner Drive,,37.829212,-122.374047,MATCH,1221 MARINER DR,6,,node/1249551351
+treasure-island,1219 Mariner Drive,,37.829232,-122.374825,MATCH,1219 MARINER DR,5,,node/1249551358
+treasure-island,1202 Mariner Drive,,37.82946,-122.375649,MATCH,1202 MARINER DR,13,,node/1249551361
+treasure-island,1 Avenue of the Palms,Treasure Island Administration Building 1,37.817412,-122.371222,NO_OFFICIAL,,34,,node/1450130174
+treasure-island,651 Avenue D,US Dept of Labor Job Corps Building 363,37.823099,-122.372885,NO_OFFICIAL,,70,,node/1450168242
+treasure-island,631 Avenue D,US Dept of Labor Job Corps Building 364,37.822836,-122.372745,NO_OFFICIAL,,94,,node/1450168490
+treasure-island,251 4th Street,US Dept of Labor Job Corps Building 365,37.821743,-122.371984,NO_OFFICIAL,,72,,node/1450168618
+treasure-island,251 4th Street,US Dept of Labor Job Corps Building 366,37.82148,-122.371801,NO_OFFICIAL,,38,,node/1450169174
+treasure-island,251 4th Street,US Dept of Labor Job Corps Building 367,37.821209,-122.37163,TWO_SYSTEMS,251 04TH TI ST,5,,node/1450169444
+treasure-island,351 Avenue H,US Dept of Labor Job Corps Administration & Wellness Center,37.821819,-122.369162,NO_OFFICIAL,,34,,node/1450184169
+treasure-island,401 13th Street,Aracely Cafe,37.827749,-122.374083,TWO_SYSTEMS,401 13TH TI ST,5,,node/5271201109
+treasure-island,1 Avenue of the Palms,Woods Island Club,37.817094,-122.370829,TWO_SYSTEMS,39 TREASURE ISLAND RD,16,,node/6064189082
+treasure-island,669 Avenue of the Palms,Mersea,37.822544,-122.375631,NO_OFFICIAL,,138,,node/8017457805
+treasure-island,850 Avenue I,Shipshape Community Center,37.827242,-122.368721,TWO_SYSTEMS,850 AVENUE I,7,,node/9606331425
+treasure-island,702 California Avenue,TC Rentals,37.819453,-122.365217,NO_OFFICIAL,,65,,node/10094486412
+treasure-island,1 Avenue of the Palms,Treasure Island Yacht Club,37.817513,-122.371382,NO_OFFICIAL,,52,,node/11193713659
+treasure-island,810 Avenue D,Treasure Island Bookmobile,37.824415,-122.372625,TWO_SYSTEMS,810 AVENUE D,6,,node/11230361241
+treasure-island,849 13th Street,Moto Guild,37.829896,-122.369155,TWO_SYSTEMS,849 13TH TI ST,13,,node/11643281998
+treasure-island,600 California Avenue,Bigge Crane & Rigging,37.819662,-122.365328,NO_OFFICIAL,,40,,node/11644724885
+treasure-island,801 Avenue H,Got2Move,37.825446,-122.370485,NO_OFFICIAL,,79,,node/13172874474
+treasure-island,1 Avenue of the Palms,Gold Bar Distillery,37.816827,-122.371028,NO_OFFICIAL,,40,,node/13257040801
+treasure-island,300 California Avenue,Building 2,37.818496,-122.367811,MATCH,300 CALIFORNIA AVE,38,,way/24274434
+treasure-island,849 4th Street,Tepper Little League Field #1,37.823842,-122.364586,NO_OFFICIAL,,46,,way/28353177
+treasure-island,449 Avenue H,,37.823016,-122.368835,TWO_SYSTEMS,659 AVENUE H,14,,way/34313512
+treasure-island,655 Avenue H,"Harvey Milk Memorial Administration Building, Job Corps Center",37.821781,-122.369129,NO_OFFICIAL,,34,,way/34313513
+treasure-island,487 4th Street,Advanced Culinary Dormitory,37.821355,-122.370159,NO_OFFICIAL,,129,,way/34313514
+treasure-island,575 Avenue D,US Dept of Labor Job Corps Food Service Building 368,37.82223,-122.3724,NO_OFFICIAL,,78,,way/34313521
+treasure-island,768 Avenue H,Education Center Building 29B,37.824421,-122.368796,NO_OFFICIAL,,50,,way/34313523
+treasure-island,600 California Avenue,Building 3,37.819434,-122.365903,MATCH,600 CALIFORNIA AVE,38,,way/34313540
+treasure-island,450 4th Street,Naval Station Treasure Island,37.8206,-122.369622,NO_OFFICIAL,,120,,way/34313544
+treasure-island,800 Avenue I,,37.826217,-122.369917,NO_OFFICIAL,,30,,way/34313545
+treasure-island,850 Avenue H,,37.826936,-122.370336,NO_OFFICIAL,,32,,way/34313546
+treasure-island,750 Avenue M,San Francisco Fire Dept Treasure Island Training Facility Building 600,37.826749,-122.367579,NO_OFFICIAL,,89,,way/34313548
+treasure-island,1318 Gateview Avenue,,37.826576,-122.377227,MATCH,1318 GATEVIEW AVE,21,,way/95934092
+treasure-island,1432 Halibut Court,,37.824976,-122.375036,MATCH,1432 HALIBUT CT,15,,way/95934093
+treasure-island,1412 Flounder Court,,37.826687,-122.375187,MATCH,1412 FLOUNDER CT,4,,way/95934096
+treasure-island,1404 Sturgeon Street,,37.826614,-122.375811,MATCH,1404 STURGEON ST,9,,way/95934097
+treasure-island,1435 Halibut Court,,37.824725,-122.374264,MATCH,1435 HALIBUT CT,13,,way/95934098
+treasure-island,1433 Halibut Court,,37.824674,-122.374804,MATCH,1433 HALIBUT CT,15,,way/95934099
+treasure-island,1430 Halibut Court,,37.824806,-122.37544,MATCH,1430 HALIBUT CT,9,,way/95934100
+treasure-island,1409 Flounder Court,,37.826472,-122.374451,MATCH,1409 FLOUNDER CT,4,,way/95934101
+treasure-island,1403 Sturgeon Street,,37.82624,-122.375873,MATCH,1403 STURGEON ST,7,,way/95934104
+treasure-island,1441 Chinook Court,,37.823897,-122.3739,MATCH,1441 CHINOOK CT,11,,way/95934105
+treasure-island,1305 Gateview Avenue,,37.823588,-122.376478,MATCH,1305 GATEVIEW AVE,10,,way/95934106
+treasure-island,1420 Striped Bass Street,,37.825759,-122.376148,MATCH,1420 STRIPED BASS ST,12,,way/95934107
+treasure-island,1405 Sturgeon Street,,37.826034,-122.375495,MATCH,1405 STURGEON ST,8,,way/95934108
+treasure-island,1411 Flounder Court,,37.826786,-122.374653,MATCH,1411 FLOUNDER CT,4,,way/95934110
+treasure-island,1418 Striped Bass Street,,37.826379,-122.376471,MATCH,1418 STRIPED BASS ST,15,,way/95934112
+treasure-island,1437 Chinook Court,,37.823565,-122.374691,MATCH,1437 CHINOOK CT,6,,way/95934113
+treasure-island,1413 Flounder Court,,37.827191,-122.374995,MATCH,1413 FLOUNDER CT,14,,way/95934115
+treasure-island,905 Avenue B,,37.824924,-122.376338,TWO_SYSTEMS,905 AVENUE B,11,,way/95934116
+treasure-island,1444 Croaker Court,,37.824195,-122.375127,MATCH,1444 CROAKER CT,15,,way/95934117
+treasure-island,1419 Striped Bass Street,,37.826079,-122.376349,MATCH,1419 STRIPED BASS ST,19,,way/95934118
+treasure-island,148 12th Street,,37.825339,-122.375722,NO_OFFICIAL,,24,,way/95934119
+treasure-island,1449 Croaker Court,,37.824396,-122.374532,MATCH,1449 CROAKER CT,20,,way/95934120
+treasure-island,1445 Chinook Court,,37.824432,-122.373361,MATCH,1445 CHINOOK CT,8,,way/95934121
+treasure-island,1434 Halibut Court,,37.82517,-122.374557,MATCH,1434 HALIBUT CT,18,,way/95934122
+treasure-island,1410 Flounder Court,,37.826321,-122.37483,MATCH,1410 FLOUNDER CT,1,,way/95934124
+treasure-island,1317 Gateview Avenue,,37.826383,-122.377737,MATCH,1317 GATEVIEW AVE,18,,way/95934125
+treasure-island,1400 Sturgeon Street,,37.826813,-122.376675,MATCH,1400 STURGEON ST,13,,way/95934126
+treasure-island,1406 Sturgeon Street,,37.826491,-122.375378,MATCH,1406 STURGEON ST,3,,way/95934128
+treasure-island,1440 Chinook Court,,37.824298,-122.373913,MATCH,1440 CHINOOK CT,11,,way/95934129
+treasure-island,1438 Chinook Court,,37.824128,-122.374309,MATCH,1438 CHINOOK CT,3,,way/95934131
+treasure-island,1314 Gateview Avenue,,37.825794,-122.37672,MATCH,1314 GATEVIEW AVE,24,,way/95934132
+treasure-island,1431 Halibut Court,,37.824509,-122.375193,MATCH,1431 HALIBUT CT,15,,way/95934135
+treasure-island,1301 Gateview Avenue,,37.823821,-122.375478,NO_OFFICIAL,,48,,way/95934136
+treasure-island,1436 Chinook Court,,37.823899,-122.374854,MATCH,1436 CHINOOK CT,9,,way/95934137
+treasure-island,1303 Gateview Avenue,,37.82363,-122.375936,NO_OFFICIAL,,42,,way/95934139
+treasure-island,1408 Sturgeon Street,,37.826193,-122.375096,MATCH,1408 STURGEON ST,12,,way/95934140
+treasure-island,1402 Sturgeon Street,,37.826713,-122.376242,MATCH,1402 STURGEON ST,17,,way/95934142
+treasure-island,1443 Chinook Court,,37.82408,-122.373503,MATCH,1443 CHINOOK CT,16,,way/95934143
+treasure-island,1439 Chinook Court,,37.823732,-122.374299,MATCH,1439 CHINOOK CT,15,,way/95934144
+treasure-island,1122 Reeves Court,,37.828658,-122.376301,MATCH,1122 REEVES CT,13,,way/96215645
+treasure-island,1316 Gateview Avenue,,37.826161,-122.376941,MATCH,1316 GATEVIEW AVE,26,,way/96215648
+treasure-island,1212 Mariner Drive,,37.828958,-122.373033,MATCH,1212 MARINER DR,9,,way/96215649
+treasure-island,1202 Mariner Drive,,37.829294,-122.375594,MATCH,1202 MARINER DR,8,,way/96215651
+treasure-island,1220 Bayside Drive,,37.829859,-122.376201,MATCH,1220 BAYSIDE DR,11,,way/96215652
+treasure-island,1227 Northpoint Drive,,37.830742,-122.37485,MATCH,1227 NORTHPOINT DR,21,,way/96215653
+treasure-island,1312 Gateview Avenue,,37.825335,-122.376751,MATCH,1312 GATEVIEW AVE,12,,way/96215655
+treasure-island,1224 Bayside Drive,,37.830467,-122.375971,MATCH,1224 BAYSIDE DR,3,,way/96215656
+treasure-island,1307 Gateview Avenue,,37.823903,-122.376786,MATCH,1307 GATEVIEW AVE,16,,way/96215657
+treasure-island,1239 Northpoint Drive,,37.831079,-122.372632,MATCH,1239 NORTHPOINT DR,20,,way/96215658
+treasure-island,1234 Northpoint Drive,,37.830802,-122.374383,MATCH,1234 NORTHPOINT DR,10,,way/96215659
+treasure-island,1225 Northpoint Drive,,37.830292,-122.374875,MATCH,1225 NORTHPOINT DR,11,,way/96215660
+treasure-island,1222 Bayside Drive,,37.830243,-122.376499,MATCH,1222 BAYSIDE DR,9,,way/96215661
+treasure-island,1139 Ozbourn Court,,37.82901,-122.377043,MATCH,1139 OZBOURN CT,9,,way/96215662
+treasure-island,1215 Bayside Drive,,37.83022,-122.375233,MATCH,1215 BAYSIDE DR,4,,way/96215666
+treasure-island,1248 Gateview Court,,37.830379,-122.37393,NO_OFFICIAL,,46,,way/96215667
+treasure-island,1236 Northpoint Drive,,37.831273,-122.374051,MATCH,1236 NORTHPOINT DR,10,,way/96215668
+treasure-island,1238 Northpoint Drive,,37.83139,-122.373435,MATCH,1238 NORTHPOINT DR,9,,way/96215669
+treasure-island,1246 Gateview Court,,37.830265,-122.37349,NO_OFFICIAL,,34,,way/96215670
+treasure-island,1244 Northpoint Drive,,37.830082,-122.373102,MATCH,1244 NORTHPOINT DR,8,,way/96215671
+treasure-island,1201 Bayside Drive,,37.829594,-122.376543,MATCH,1201 BAYSIDE DR,12,,way/96215672
+treasure-island,1232 Northpoint Drive,,37.830353,-122.374413,MATCH,1232 NORTHPOINT DR,11,,way/96215673
+treasure-island,1241 Northpoint Drive,,37.83059,-122.372469,MATCH,1241 NORTHPOINT DR,33,,way/96215674
+treasure-island,1143 Ozbourn Court,,37.829266,-122.377758,MATCH,1143 OZBOURN CT,8,,way/96215676
+treasure-island,1206 Mariner Drive,,37.82891,-122.374594,MATCH,1206 MARINER DR,24,,way/96215677
+treasure-island,1205 Bayside Drive,,37.830157,-122.377184,MATCH,1205 BAYSIDE DR,19,,way/96215678
+treasure-island,1219 Mariner Drive,,37.829276,-122.374611,MATCH,1219 MARINER DR,19,,way/96215680
+treasure-island,1221 Mariner Drive,,37.829252,-122.374,MATCH,1221 MARINER DR,3,,way/96215682
+treasure-island,1226 Bayside Drive,,37.830095,-122.375726,MATCH,1226 BAYSIDE DR,3,,way/96215685
+treasure-island,1240 Northpoint Drive,,37.831026,-122.373054,MATCH,1240 NORTHPOINT DR,12,,way/96215688
+treasure-island,1141 Ozbourn Court,,37.828975,-122.377508,MATCH,1141 OZBOURN CT,4,,way/96215690
+treasure-island,1204 Mariner Drive,,37.828971,-122.375176,MATCH,1204 MARINER DR,15,,way/96215691
+treasure-island,1208 Mariner Drive,,37.828885,-122.374026,MATCH,1208 MARINER DR,17,,way/96215693
+treasure-island,1145 Ozbourn Court,,37.82967,-122.377534,MATCH,1145 OZBOURN CT,15,,way/96665884
+treasure-island,1118 Hutchins Court,,37.828054,-122.376663,MATCH,1118 HUTCHINS CT,7,,way/96665885
+treasure-island,1447 Chinook Court,,37.824766,-122.373409,MATCH,1447 CHINOOK CT,20,,way/96665886
+treasure-island,1115 Keppler Court,,37.827475,-122.377189,MATCH,1115 KEPPLER CT,9,,way/96665887
+treasure-island,1111 Keppler Court,,37.827388,-122.37651,MATCH,1111 KEPPLER CT,19,,way/96665890
+treasure-island,1137 Mason Court,,37.828579,-122.377242,MATCH,1137 MASON CT,10,,way/96665892
+treasure-island,1210 Mariner Drive,,37.828871,-122.373525,MATCH,1210 MARINER DR,6,,way/96665893
+treasure-island,1112 Hutchins Court,,37.828376,-122.376408,MATCH,1112 HUTCHINS CT,13,,way/96665897
+treasure-island,1442 Chinook Court,,37.824509,-122.374082,MATCH,1442 CHINOOK CT,9,,way/96665900
+treasure-island,1124 Reeves Court,,37.828644,-122.375804,MATCH,1124 REEVES CT,13,,way/96665903
+treasure-island,1237 Northpoint Drive,,37.831564,-122.372891,MATCH,1237 NORTHPOINT DR,9,,way/96665904
+treasure-island,1147 Ozbourn Court,,37.829531,-122.377071,MATCH,1147 OZBOURN CT,6,,way/96665906
+treasure-island,1129 Mason Court,,37.828111,-122.377428,MATCH,1129 MASON CT,15,,way/96665907
+treasure-island,1203 Bayside Drive,,37.829833,-122.376962,MATCH,1203 BAYSIDE DR,23,,way/96665908
+treasure-island,1149 Ozbourn Court,,37.829315,-122.376671,MATCH,1149 OZBOURN CT,8,,way/96665909
+treasure-island,1110 Hutchins Court,,37.828184,-122.376077,MATCH,1110 HUTCHINS CT,15,,way/96665910
+treasure-island,1229 Northpoint Drive,,37.831197,-122.374788,MATCH,1229 NORTHPOINT DR,23,,way/96665911
+treasure-island,1109 Keppler Court,,37.827678,-122.376476,MATCH,1109 KEPPLER CT,13,,way/96665915
+treasure-island,1242 Northpoint Drive,,37.830603,-122.372927,MATCH,1242 NORTHPOINT DR,2,,way/96665916
+treasure-island,1310 Gateview Avenue,,37.824818,-122.376741,MATCH,1310 GATEVIEW AVE,13,,way/96665918
+treasure-island,1116 Hutchins Court,,37.828245,-122.376931,MATCH,1116 HUTCHINS CT,3,,way/96665919
+treasure-island,1131 Mason Court,,37.828107,-122.377826,MATCH,1131 MASON CT,11,,way/96665920
+treasure-island,1113 Keppler Court,1113 Keppler Court,37.827163,-122.376793,MATCH,1113 KEPPLER CT,19,,way/96665921
+treasure-island,1114 Hutchins Court,,37.828515,-122.376755,MATCH,1114 HUTCHINS CT,18,,way/96665922
+treasure-island,1120 Reeves Court,,37.828853,-122.376611,MATCH,1120 REEVES CT,8,,way/96665923
+treasure-island,1107 Bigelow Court,,37.82755,-122.375934,MATCH,1107 BIGELOW CT,10,,way/96665925
+treasure-island,1117 Keppler Court,,37.827807,-122.377009,MATCH,1117 KEPPLER CT,7,,way/96665928
+treasure-island,1105 Bigelow Court,,37.827197,-122.376115,MATCH,1105 BIGELOW CT,10,,way/96665933
+treasure-island,1135 Mason Court,,37.828708,-122.377655,MATCH,1135 MASON CT,11,,way/96665935
+treasure-island,1128 Reeves Court,,37.829095,-122.376262,MATCH,1128 REEVES CT,7,,way/96665936
+treasure-island,1216 Gateview Court,,37.828372,-122.373089,NO_OFFICIAL,,33,,way/96698627
+treasure-island,1214 Gateview Court,,37.828686,-122.372834,TWO_SYSTEMS,1440 GATEVIEW AVE,19,,way/96698645
+treasure-island,1315 Gateview Avenue,,37.825964,-122.377453,MATCH,1315 GATEVIEW AVE,13,,way/96698651
+treasure-island,1223 Mariner Drive,,37.829278,-122.373384,MATCH,1223 MARINER DR,10,,way/96698652
+treasure-island,810 Avenue D,,37.824413,-122.372598,TWO_SYSTEMS,810 AVENUE D,4,,way/96698660
+treasure-island,1243 Northpoint Drive,,37.830141,-122.37251,MATCH,1243 NORTHPOINT DR,7,,way/96698663
+treasure-island,1218 Gateview Court,,37.828362,-122.372606,TWO_SYSTEMS,1430 GATEVIEW AVE,15,,way/96698667
+treasure-island,1245 Northpoint Drive,,37.829752,-122.372801,MATCH,1245 NORTHPOINT DR,6,,way/96698672
+treasure-island,550 Avenue H,Education Center Building 29A,37.824567,-122.368893,NO_OFFICIAL,,32,,way/109905031
+treasure-island,550 Avenue H,Education Center Building 29C,37.824293,-122.368709,NO_OFFICIAL,,66,,way/109905037
+treasure-island,550 Avenue H,Education Center Building 29E,37.824013,-122.368517,NO_OFFICIAL,,61,,way/109905040
+treasure-island,550 Avenue H,Education Center Building 29D,37.82416,-122.368615,NO_OFFICIAL,,77,,way/109905044
+treasure-island,205 Macalla Road,,37.811258,-122.366678,MATCH,205 MACALLA RD,3,,way/291188988
+treasure-island,1 Yerba Buena Island,VTS San Fran Operations Center,37.809643,-122.36523,NO_OFFICIAL,,67,,way/291189061
+treasure-island,51 California Avenue,Navy Chapel Building 187,37.818117,-122.372236,NO_OFFICIAL,,23,,way/291189336
+treasure-island,401 California Avenue,Oasis - pizzeria & event venue,37.81921,-122.370058,TWO_SYSTEMS,275 CALIFORNIA AVE,19,,way/291189918
+treasure-island,275 California Avenue,US Dept of Labor Job Corps Dormitory Building 369,37.819671,-122.370558,NO_OFFICIAL,,85,,way/291189926
+treasure-island,1 Yerba Buena Island,Coast Guard Station San Francisco,37.810077,-122.362438,NO_OFFICIAL,,111,,way/864121099
+treasure-island,36 Meadow Drive,,37.810572,-122.366292,MATCH,36 MEADOW DR,22,,way/1228080322
+treasure-island,275 Yerba Buena Road,Panorama Park,37.810547,-122.368667,NO_OFFICIAL,,37,,way/1232534975
+treasure-island,39 Bruton Street,Isle House,37.81903,-122.372389,MATCH,39 BRUTON ST,18,,way/1249412094
+treasure-island,490 Avenue of the Palms,490 Avenue of the Palms,37.821182,-122.37363,NO_OFFICIAL,,36,,way/1272162518
+treasure-island,36 Meadow Drive,,37.810598,-122.365858,MATCH,36 MEADOW DR,18,,way/1375946326
+treasure-island,99 Signal Road,Signal Point Park,37.810105,-122.366459,NO_OFFICIAL,,37,,way/1428380756
+treasure-island,550 4th Street,Treasure Island Personnel Support Detachment,37.82121,-122.368136,NO_OFFICIAL,,101,,relation/133347
+treasure-island,1 Yerba Buena Island,U.S. Coast Guard - Vessel Traffic Service San Francisco,37.809683,-122.365469,NO_OFFICIAL,,47,,relation/13845955

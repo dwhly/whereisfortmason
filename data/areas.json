@@ -1,0 +1,69 @@
+[
+ {
+  "id": "fort-mason",
+  "name": "Fort Mason",
+  "bbox": [
+   37.802,
+   -122.4345,
+   37.8095,
+   -122.4235
+  ],
+  "eas_nhood": null,
+  "osm_street_exclude": [
+   "FRANCISCO ST",
+   "CHESTNUT ST",
+   "BAY ST",
+   "OCTAVIA ST",
+   "GOUGH ST",
+   "VAN NESS AVE",
+   "NORTH POINT ST",
+   "BUCHANAN ST",
+   "POLK ST",
+   "BEACH ST",
+   "LAGUNA ST"
+  ],
+  "note": "Upper Fort Mason + Fort Mason Center (GGNRA / NPS). bbox overlaps Marina/Cow Hollow blocks; ordinary grid streets excluded."
+ },
+ {
+  "id": "presidio",
+  "name": "Presidio of San Francisco",
+  "bbox": [
+   37.785,
+   -122.485,
+   37.811,
+   -122.445
+  ],
+  "eas_nhood": [
+   "Presidio"
+  ],
+  "note": "Presidio Trust / NPS. Former Army post."
+ },
+ {
+  "id": "treasure-island",
+  "name": "Treasure Island + Yerba Buena Island",
+  "bbox": [
+   37.804,
+   -122.38,
+   37.833,
+   -122.355
+  ],
+  "eas_nhood": [
+   "Treasure Island"
+  ],
+  "note": "TIDA. Former Naval Station Treasure Island; active redevelopment with new streets."
+ },
+ {
+  "id": "hunters-point-shipyard",
+  "name": "Hunters Point Shipyard",
+  "bbox": [
+   37.718,
+   -122.38,
+   37.733,
+   -122.356
+  ],
+  "eas_nhood": [
+   "Bayview Hunters Point"
+  ],
+  "note": "Former Hunters Point Naval Shipyard; redevelopment (The Shipyard). bbox trimmed to the shipyard; EAS nhood is all of Bayview Hunters Point."
+ }
+]
