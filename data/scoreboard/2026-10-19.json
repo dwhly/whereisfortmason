@@ -1,0 +1,244 @@
+{
+ "date": "2026-10-19",
+ "pass_m": 60,
+ "rows": [
+  {
+   "address": "2 Fort Mason",
+   "building": "Quarters 2",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "FAIL (279 m off)",
+   "Photon (OSM)": "PASS (4 m)"
+  },
+  {
+   "address": "3 Fort Mason",
+   "building": "Haskell House",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "FAIL (328 m off)",
+   "Photon (OSM)": "PASS (1 m)"
+  },
+  {
+   "address": "4 Fort Mason",
+   "building": "Quarters 4N and 4S",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "FAIL (372 m off)",
+   "Photon (OSM)": "PASS (3 m)"
+  },
+  {
+   "address": "9 Fort Mason",
+   "building": "Building 9",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "FAIL (195 m off)",
+   "Photon (OSM)": "FAIL (217 m off)"
+  },
+  {
+   "address": "32 Fort Mason",
+   "building": "Building 32",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (1 m)",
+   "Photon (OSM)": "PASS (1 m)"
+  },
+  {
+   "address": "33 Fort Mason",
+   "building": "Building 33",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (1 m)",
+   "Photon (OSM)": "PASS (1 m)"
+  },
+  {
+   "address": "34 Fort Mason",
+   "building": "Building 34",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (2 m)",
+   "Photon (OSM)": "PASS (2 m)"
+  },
+  {
+   "address": "35 Fort Mason",
+   "building": "Building 35",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (2 m)",
+   "Photon (OSM)": "PASS (2 m)"
+  },
+  {
+   "address": "36 Fort Mason",
+   "building": "Building 36",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (1 m)",
+   "Photon (OSM)": "PASS (1 m)"
+  },
+  {
+   "address": "37 Fort Mason",
+   "building": "Building 37",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (2 m)",
+   "Photon (OSM)": "PASS (2 m)"
+  },
+  {
+   "address": "38 Fort Mason",
+   "building": "Building 38",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (2 m)",
+   "Photon (OSM)": "PASS (2 m)"
+  },
+  {
+   "address": "39 Fort Mason",
+   "building": "Building 39",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (1 m)",
+   "Photon (OSM)": "PASS (1 m)"
+  },
+  {
+   "address": "41 Fort Mason",
+   "building": "",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (1 m)",
+   "Photon (OSM)": "PASS (1 m)"
+  },
+  {
+   "address": "42 Fort Mason",
+   "building": "",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "FAIL (64 m off)",
+   "Photon (OSM)": "PASS (1 m)"
+  },
+  {
+   "address": "43 Fort Mason",
+   "building": "",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (48 m)",
+   "Photon (OSM)": "PASS (1 m)"
+  },
+  {
+   "address": "44 Fort Mason",
+   "building": "",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "FAIL (99 m off)",
+   "Photon (OSM)": "PASS (1 m)"
+  },
+  {
+   "address": "46 Fort Mason",
+   "building": "",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "FAIL (180 m off)",
+   "Photon (OSM)": "PASS (1 m)"
+  },
+  {
+   "address": "47 Fort Mason",
+   "building": "",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (2 m)",
+   "Photon (OSM)": "PASS (2 m)"
+  },
+  {
+   "address": "48 Fort Mason",
+   "building": "",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (2 m)",
+   "Photon (OSM)": "PASS (2 m)"
+  },
+  {
+   "address": "49 Fort Mason",
+   "building": "",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (1 m)",
+   "Photon (OSM)": "PASS (1 m)"
+  },
+  {
+   "address": "101 Fort Mason",
+   "building": "Golden Gate National Recreation Area - Cultural Resources",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (0 m)",
+   "Photon (OSM)": "PASS (0 m)"
+  },
+  {
+   "address": "102 Fort Mason",
+   "building": "San Francisco Conservation Corps",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (8 m)",
+   "Photon (OSM)": "PASS (0 m)"
+  },
+  {
+   "address": "102 Fort Mason",
+   "building": "Building 102",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "PASS (1 m)",
+   "Photon (OSM)": "PASS (9 m)"
+  },
+  {
+   "address": "201 Fort Mason",
+   "building": "William H. Whelan Building",
+   "Apple Maps": "NO_KEY",
+   "Google": "NO_KEY",
+   "US Census": "FAIL (not found)",
+   "OSM Nominatim": "FAIL (191 m off)",
+   "Photon (OSM)": "PASS (1 m)"
+  }
+ ],
+ "score": {
+  "Apple Maps": [
+   0,
+   0
+  ],
+  "Google": [
+   0,
+   0
+  ],
+  "US Census": [
+   0,
+   24
+  ],
+  "OSM Nominatim": [
+   16,
+   24
+  ],
+  "Photon (OSM)": [
+   23,
+   24
+  ]
+ }
+}

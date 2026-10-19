@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12",
+ "generated": "2026-10-19",
  "addresses": [
   {
    "address": "2 Fort Mason",
@@ -15,12 +15,12 @@
     "OSM Nominatim": {
      "status": "wrong",
      "at": [
-      37.804019,
-      -122.427708
+      37.804059,
+      -122.427097
      ],
-     "m": 288,
-     "label": "Fort Mason 12, Marina District, San Francisco, California, 94123, United States",
-     "whats_there": "Fort Mason 12"
+     "m": 279,
+     "label": "Fort Mason 13, Marina District, San Francisco, California, 94123, United States",
+     "whats_there": "Fort Mason 13"
     },
     "Photon (OSM)": {
      "status": "pass",
@@ -57,12 +57,12 @@
     "OSM Nominatim": {
      "status": "wrong",
      "at": [
-      37.805108,
-      -122.427531
+      37.804251,
+      -122.426154
      ],
-     "m": 216,
-     "label": "Fort Mason 9, Marina District, San Francisco, California, 94123, United States",
-     "whats_there": "Fort Mason 9"
+     "m": 328,
+     "label": "Fort Mason 17, Marina District, San Francisco, California, 94123, United States",
+     "whats_there": "Building 33"
     },
     "Photon (OSM)": {
      "status": "pass",
@@ -99,12 +99,12 @@
     "OSM Nominatim": {
      "status": "wrong",
      "at": [
-      37.804059,
-      -122.427097
+      37.804019,
+      -122.427708
      ],
-     "m": 368,
-     "label": "Fort Mason 13, Marina District, San Francisco, California, 94123, United States",
-     "whats_there": "Fort Mason 13"
+     "m": 372,
+     "label": "Fort Mason 12, Marina District, San Francisco, California, 94123, United States",
+     "whats_there": "Fort Mason 12"
     },
     "Photon (OSM)": {
      "status": "pass",
@@ -141,12 +141,12 @@
     "OSM Nominatim": {
      "status": "wrong",
      "at": [
-      37.804251,
-      -122.426154
+      37.804059,
+      -122.427097
      ],
-     "m": 143,
-     "label": "Fort Mason 17, Marina District, San Francisco, California, 94123, United States",
-     "whats_there": "Building 33"
+     "m": 195,
+     "label": "Fort Mason 13, Marina District, San Francisco, California, 94123, United States",
+     "whats_there": "Fort Mason 13"
     },
     "Photon (OSM)": {
      "status": "wrong",
@@ -462,12 +462,12 @@
     "OSM Nominatim": {
      "status": "wrong",
      "at": [
-      37.805108,
-      -122.427531
+      37.804019,
+      -122.427708
      ],
-     "m": 72,
-     "label": "Fort Mason 9, Marina District, San Francisco, California, 94123, United States",
-     "whats_there": "Fort Mason 9"
+     "m": 64,
+     "label": "Fort Mason 12, Marina District, San Francisco, California, 94123, United States",
+     "whats_there": "Fort Mason 12"
     },
     "Photon (OSM)": {
      "status": "pass",
@@ -492,14 +492,13 @@
      "status": "not_found"
     },
     "OSM Nominatim": {
-     "status": "wrong",
+     "status": "pass",
      "at": [
-      37.804019,
-      -122.427708
+      37.805108,
+      -122.427531
      ],
-     "m": 80,
-     "label": "Fort Mason 12, Marina District, San Francisco, California, 94123, United States",
-     "whats_there": "Fort Mason 12"
+     "m": 48,
+     "label": "Fort Mason 9, Marina District, San Francisco, California, 94123, United States"
     },
     "Photon (OSM)": {
      "status": "pass",
@@ -558,12 +557,12 @@
     "OSM Nominatim": {
      "status": "wrong",
      "at": [
-      37.804059,
-      -122.427097
+      37.804251,
+      -122.426154
      ],
-     "m": 121,
-     "label": "Fort Mason 13, Marina District, San Francisco, California, 94123, United States",
-     "whats_there": "Fort Mason 13"
+     "m": 180,
+     "label": "Fort Mason 17, Marina District, San Francisco, California, 94123, United States",
+     "whats_there": "Building 33"
     },
     "Photon (OSM)": {
      "status": "pass",
@@ -779,12 +778,12 @@
     "OSM Nominatim": {
      "status": "wrong",
      "at": [
-      37.804251,
-      -122.426154
+      37.804059,
+      -122.427097
      ],
-     "m": 229,
-     "label": "Fort Mason 17, Marina District, San Francisco, California, 94123, United States",
-     "whats_there": "Building 33"
+     "m": 191,
+     "label": "Fort Mason 13, Marina District, San Francisco, California, 94123, United States",
+     "whats_there": "Fort Mason 13"
     },
     "Photon (OSM)": {
      "status": "pass",
